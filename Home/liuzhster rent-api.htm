@@ -1,0 +1,2104 @@
+<!DOCTYPE html>
+<!-- saved from url=(0037)https://github.com/liuzhster/rent-api -->
+<html lang="en" class=""><head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# object: http://ogp.me/ns/object# article: http://ogp.me/ns/article# profile: http://ogp.me/ns/profile#"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Language" content="en">
+    
+    
+    <title>liuzhster/rent-api</title>
+    <link rel="search" type="application/opensearchdescription+xml" href="https://github.com/opensearch.xml" title="GitHub">
+    <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+    <link rel="apple-touch-icon" sizes="57x57" href="https://github.com/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://github.com/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://github.com/apple-touch-icon-144.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://github.com/apple-touch-icon-144.png">
+    <meta property="fb:app_id" content="1401488693436528">
+
+      <meta content="@github" name="twitter:site"><meta content="summary" name="twitter:card"><meta content="liuzhster/rent-api" name="twitter:title"><meta content="rent-api - api for the rent app" name="twitter:description"><meta content="https://avatars3.githubusercontent.com/u/3897304?v=2&amp;s=400" name="twitter:image:src">
+<meta content="GitHub" property="og:site_name"><meta content="object" property="og:type"><meta content="https://avatars3.githubusercontent.com/u/3897304?v=2&amp;s=400" property="og:image"><meta content="liuzhster/rent-api" property="og:title"><meta content="https://github.com/liuzhster/rent-api" property="og:url"><meta content="rent-api - api for the rent app" property="og:description">
+
+      <meta name="browser-stats-url" content="/_stats">
+    <link rel="assets" href="https://assets-cdn.github.com/">
+    <link rel="conduit-xhr" href="https://ghconduit.com:25035/">
+    <link rel="xhr-socket" href="https://github.com/_sockets">
+    <meta name="pjax-timeout" content="1000">
+
+    <meta name="msapplication-TileImage" content="/windows-tile.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="selected-link" value="repo_source" data-pjax-transient="">
+      <meta name="google-analytics" content="UA-3769691-2">
+
+    <meta content="collector.githubapp.com" name="octolytics-host"><meta content="collector-cdn.github.com" name="octolytics-script-host"><meta content="github" name="octolytics-app-id"><meta content="74E30A65:2FD2:2093535:5441F4A5" name="octolytics-dimension-request_id"><meta content="5163569" name="octolytics-actor-id"><meta content="bacy" name="octolytics-actor-login"><meta content="1dd6c53ead527fd5fd9a580463d97452c36309f48485c49857b271308c55f978" name="octolytics-actor-hash">
+    <meta content="/private/private/files/disambiguate" name="analytics-location">
+    <meta content="Rails, view, files#disambiguate" name="analytics-event">
+
+    
+    
+    <link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico">
+
+
+    <meta content="authenticity_token" name="csrf-param">
+<meta content="v8SrUQ4z7zOXrhj57wsflPeSLUOUv/h9C/KNBg0otE8IXsF7mcIVhekK0lhz9nwqTE+Poo8zF23Riavfqfm5Nw==" name="csrf-token">
+
+    <link href="./liuzhster rent-api_files/github-711f4bf5fc9082e60457fca0cbb9a16acce23f893b93b14c0d3b1cc7f5edb8b2.css" media="all" rel="stylesheet" type="text/css">
+    <link href="./liuzhster rent-api_files/github2-281feeb6e79125616cf07635b26dc5aaa0887df5416f1a366162e1d394f33dc4.css" media="all" rel="stylesheet" type="text/css">
+    
+    
+
+
+    <meta http-equiv="x-pjax-version" content="f648fdc48fd10318fc0e096a1a7d26ad">
+
+      
+  <meta name="description" content="rent-api - api for the rent app">
+  <meta name="go-import" content="github.com/liuzhster/rent-api git https://github.com/liuzhster/rent-api.git">
+
+  <meta content="3897304" name="octolytics-dimension-user_id"><meta content="liuzhster" name="octolytics-dimension-user_login"><meta content="10843508" name="octolytics-dimension-repository_id"><meta content="liuzhster/rent-api" name="octolytics-dimension-repository_nwo"><meta content="false" name="octolytics-dimension-repository_public"><meta content="false" name="octolytics-dimension-repository_is_fork"><meta content="10843508" name="octolytics-dimension-repository_network_root_id"><meta content="liuzhster/rent-api" name="octolytics-dimension-repository_network_root_nwo">
+  <link href="https://github.com/liuzhster/rent-api/commits/master.atom?token=5163569__eyJzY29wZSI6IkF0b206L2xpdXpoc3Rlci9yZW50LWFwaS9jb21taXRzL21hc3Rlci5hdG9tIiwiZXhwaXJlcyI6Mjk5MTUzMTgxNH0%3D--0d5efb099d10607a93010ea57cb6a92b99e68ef1" rel="alternate" title="Recent Commits to rent-api:master" type="application/atom+xml">
+
+  <script type="text/javascript" async="" src="./liuzhster rent-api_files/api.js"></script><script id="b5mmain" type="text/javascript" charset="utf-8" src="./liuzhster rent-api_files/b5m.main.js"></script></head>
+
+
+  <body class="logged_in  env-production windows vis-private" youdao="bind">
+    <a href="https://github.com/liuzhster/rent-api#start-of-content" tabindex="1" class="accessibility-aid js-skip-to-content">Skip to content</a>
+    <div class="wrapper">
+      
+      
+      
+      
+
+
+      <div class="header header-logged-in true" role="banner">
+  <div class="container clearfix">
+
+    <a class="header-logo-invertocat" href="https://github.com/" data-hotkey="g d" aria-label="Homepage" ga-data-click="Header, go to dashboard, icon:logo">
+  <span class="mega-octicon octicon-mark-github"></span>
+</a>
+
+
+      <div class="site-search repo-scope js-site-search" role="search">
+          <form accept-charset="UTF-8" action="https://github.com/liuzhster/rent-api/search" class="js-site-search-form" data-global-search-url="/search" data-repo-search-url="/liuzhster/rent-api/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"></div>
+  <input type="text" class="js-site-search-field is-clearable" data-hotkey="s" name="q" placeholder="Search" data-global-scope-placeholder="Search GitHub" data-repo-scope-placeholder="Search" tabindex="1" autocapitalize="off">
+  <div class="scope-badge">This repository</div>
+</form>
+      </div>
+      <ul class="header-nav left" role="navigation">
+        <li class="header-nav-item explore">
+          <a class="header-nav-link" href="https://github.com/explore" data-ga-click="Header, go to explore, text:explore">Explore</a>
+        </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="https://gist.github.com/" data-ga-click="Header, go to gist, text:gist">Gist</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="https://github.com/blog" data-ga-click="Header, go to blog, text:blog">Blog</a>
+          </li>
+        <li class="header-nav-item">
+          <a class="header-nav-link" href="https://help.github.com/" data-ga-click="Header, go to help, text:help">Help</a>
+        </li>
+      </ul>
+
+    
+<ul class="header-nav user-nav right" id="user-links">
+  <li class="header-nav-item dropdown js-menu-container">
+    <a class="header-nav-link name" href="https://github.com/bacy" data-ga-click="Header, go to profile, text:username">
+      <img alt="陈波" class="avatar" data-user="5163569" height="20" src="./liuzhster rent-api_files/5163569" width="20">
+      <span class="css-truncate">
+        <span class="css-truncate-target">bacy</span>
+      </span>
+    </a>
+  </li>
+
+  <li class="header-nav-item dropdown js-menu-container">
+    <a class="header-nav-link js-menu-target tooltipped tooltipped-s" href="https://github.com/liuzhster/rent-api#" aria-label="Create new..." data-ga-click="Header, create new, icon:add">
+      <span class="octicon octicon-plus"></span>
+      <span class="dropdown-caret"></span>
+    </a>
+
+    <div class="dropdown-menu-content js-menu-content">
+      
+<ul class="dropdown-menu">
+  <li>
+    <a href="https://github.com/new"><span class="octicon octicon-repo"></span> New repository</a>
+  </li>
+  <li>
+    <a href="https://github.com/organizations/new"><span class="octicon octicon-organization"></span> New organization</a>
+  </li>
+
+
+    <li class="dropdown-divider"></li>
+    <li class="dropdown-header">
+      <span title="liuzhster/rent-api">This repository</span>
+    </li>
+      <li>
+        <a href="https://github.com/liuzhster/rent-api/issues/new"><span class="octicon octicon-issue-opened"></span> New issue</a>
+      </li>
+</ul>
+
+    </div>
+  </li>
+
+  <li class="header-nav-item">
+        <a href="https://github.com/liuzhster/rent-api/notifications" aria-label="You have unread notifications in this repository" class="header-nav-link notification-indicator tooltipped tooltipped-s" data-ga-click="Header, go to notifications, icon:unread" data-hotkey="g n">
+        <span class="mail-status unread"></span>
+        <span class="octicon octicon-inbox"></span>
+</a>
+  </li>
+
+  <li class="header-nav-item">
+    <a class="header-nav-link tooltipped tooltipped-s" href="https://github.com/settings/profile" id="account_settings" aria-label="Settings" data-ga-click="Header, go to settings, icon:settings">
+      <span class="octicon octicon-gear"></span>
+    </a>
+  </li>
+
+  <li class="header-nav-item">
+    <form accept-charset="UTF-8" action="https://github.com/logout" class="logout-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="fGt9DX2FlhZLRQ3FvF6/i31CZaOJMaz6vlBWZ6aC38gxlcpemsLm2QtqC4i+yEOXtYphelGCJC7YX3c3ERfeBg=="></div>
+      <button class="header-nav-link sign-out-button tooltipped tooltipped-s" aria-label="Sign out" data-ga-click="Header, sign out, icon:logout">
+        <span class="octicon octicon-sign-out"></span>
+      </button>
+</form>  </li>
+
+</ul>
+
+
+    
+  </div>
+</div>
+
+      
+
+        
+
+
+      <div id="start-of-content" class="accessibility-aid"></div>
+          <div class="site" itemscope="" itemtype="http://schema.org/WebPage">
+    <div id="js-flash-container">
+      
+    </div>
+    <div class="pagehead repohead instapaper_ignore readability-menu">
+      <div class="container">
+        
+<ul class="pagehead-actions">
+
+    <li class="subscription">
+      <form accept-charset="UTF-8" action="https://github.com/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="kahjwLKWzZSmOXsiACb5zdb09RbCp3mbnBypI8DlVsMcReX8B1JGvwUrKqNhhFYsTcWdP0hCXrs0bcaFgiJ4gg=="></div>  <input id="repository_id" name="repository_id" type="hidden" value="10843508">
+
+    <div class="select-menu js-menu-container js-select-menu">
+      <a class="social-count js-social-count" href="https://github.com/liuzhster/rent-api/watchers">
+        4
+      </a>
+      <a href="https://github.com/liuzhster/rent-api/subscription" class="minibutton select-menu-button with-count js-menu-target" role="button" tabindex="0" aria-haspopup="true">
+        <span class="js-select-button">
+          <span class="octicon octicon-eye"></span>
+          Unwatch
+        </span>
+      </a>
+
+      <div class="select-menu-modal-holder">
+        <div class="select-menu-modal subscription-menu-modal js-menu-content" aria-hidden="true">
+          <div class="select-menu-header">
+            <span class="select-menu-title">Notifications</span>
+            <span class="octicon octicon-x js-menu-close" role="button" aria-label="Close"></span>
+          </div> <!-- /.select-menu-header -->
+
+          <div class="select-menu-list js-navigation-container" role="menu">
+
+            <div class="select-menu-item js-navigation-item " role="menuitem" tabindex="0">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <div class="select-menu-item-text">
+                <input id="do_included" name="do" type="radio" value="included">
+                <h4>Not watching</h4>
+                <span class="description">Be notified when participating or @mentioned.</span>
+                <span class="js-select-button-text hidden-select-button-text">
+                  <span class="octicon octicon-eye"></span>
+                  Watch
+                </span>
+              </div>
+            </div> <!-- /.select-menu-item -->
+
+            <div class="select-menu-item js-navigation-item selected" role="menuitem" tabindex="0">
+              <span class="select-menu-item-icon octicon octicon octicon-check"></span>
+              <div class="select-menu-item-text">
+                <input checked="checked" id="do_subscribed" name="do" type="radio" value="subscribed">
+                <h4>Watching</h4>
+                <span class="description">Be notified of all conversations.</span>
+                <span class="js-select-button-text hidden-select-button-text">
+                  <span class="octicon octicon-eye"></span>
+                  Unwatch
+                </span>
+              </div>
+            </div> <!-- /.select-menu-item -->
+
+            <div class="select-menu-item js-navigation-item " role="menuitem" tabindex="0">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <div class="select-menu-item-text">
+                <input id="do_ignore" name="do" type="radio" value="ignore">
+                <h4>Ignoring</h4>
+                <span class="description">Never be notified.</span>
+                <span class="js-select-button-text hidden-select-button-text">
+                  <span class="octicon octicon-mute"></span>
+                  Stop ignoring
+                </span>
+              </div>
+            </div> <!-- /.select-menu-item -->
+
+          </div> <!-- /.select-menu-list -->
+
+        </div> <!-- /.select-menu-modal -->
+      </div> <!-- /.select-menu-modal-holder -->
+    </div> <!-- /.select-menu -->
+
+</form>
+    </li>
+
+  <li>
+    
+  <div class="js-toggler-container js-social-container starring-container ">
+
+    <form accept-charset="UTF-8" action="https://github.com/liuzhster/rent-api/unstar" class="js-toggler-form starred js-unstar-button" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="Y6hP+2LmlFXfXMf479Zvx09S8Bq6XfYGTDwjEzKPC1lO7inX3S090TaFihq1IZzwNy/a/KqGgHGMgeR1Rdu7NA=="></div>
+      <button class="minibutton with-count js-toggler-target star-button" aria-label="Unstar this repository" title="Unstar liuzhster/rent-api">
+        <span class="octicon octicon-star"></span>
+        Unstar
+      </button>
+        <a class="social-count js-social-count" href="https://github.com/liuzhster/rent-api/stargazers">
+          0
+        </a>
+</form>
+    <form accept-charset="UTF-8" action="https://github.com/liuzhster/rent-api/star" class="js-toggler-form unstarred js-star-button" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="UeXkiXQvPheqNLVRIHjSMWzSnhdPYJt8DeUM7HWc1YlyfEirc74EnlArl5saRoBg82wYUvvxqsNNjm2QzsYsfg=="></div>
+      <button class="minibutton with-count js-toggler-target star-button" aria-label="Star this repository" title="Star liuzhster/rent-api">
+        <span class="octicon octicon-star"></span>
+        Star
+      </button>
+        <a class="social-count js-social-count" href="https://github.com/liuzhster/rent-api/stargazers">
+          0
+        </a>
+</form>  </div>
+
+  </li>
+
+
+        <li>
+          <a href="https://github.com/liuzhster/rent-api/fork" class="minibutton with-count js-toggler-target fork-button tooltipped-n" title="Fork your own copy of liuzhster/rent-api to your account" aria-label="Fork your own copy of liuzhster/rent-api to your account" rel="nofollow" data-method="post">
+            <span class="octicon octicon-repo-forked"></span>
+            Fork
+          </a>
+          <a href="https://github.com/liuzhster/rent-api/network" class="social-count">2</a>
+        </li>
+
+</ul>
+
+        <h1 itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb" class="entry-title private">
+          <span class="mega-octicon octicon-lock"></span>
+          <span class="author"><a href="https://github.com/liuzhster" class="url fn" itemprop="url" rel="author"><span itemprop="title">liuzhster</span></a></span><!--
+       --><span class="path-divider">/</span><!--
+       --><strong><a href="./liuzhster rent-api_files/liuzhster rent-api.htm" class="js-current-repository js-repo-home-link">rent-api</a></strong>
+            <span class="repo-private-label">private</span>
+
+          <span class="page-context-loader">
+            <img alt="" height="16" src="./liuzhster rent-api_files/octocat-spinner-32.gif" width="16">
+          </span>
+
+        </h1>
+      </div><!-- /.container -->
+    </div><!-- /.repohead -->
+
+    <div class="container">
+      <div class="repository-with-sidebar repo-container new-discussion-timeline with-full-navigation">
+        <div class="repository-sidebar clearfix">
+            
+<div class="sunken-menu vertical-right repo-nav js-repo-nav js-sidenav-container-pjax js-octicon-loaders" role="navigation" data-issue-count-url="/liuzhster/rent-api/issues/counts" data-pjax-container-selector="#js-repo-pjax-container">
+  <div class="sunken-menu-contents">
+    <ul class="sunken-menu-group">
+      <li class="tooltipped tooltipped-w" aria-label="Code">
+        <a href="./liuzhster rent-api_files/liuzhster rent-api.htm" aria-label="Code" class="selected js-selected-navigation-item sunken-menu-item" data-hotkey="g c" data-pjax="true" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches /liuzhster/rent-api">
+          <span class="octicon octicon-code"></span> <span class="full-word">Code</span>
+          <img alt="" class="mini-loader" height="16" src="./liuzhster rent-api_files/octocat-spinner-32.gif" width="16">
+</a>      </li>
+
+        <li class="tooltipped tooltipped-w" aria-label="Issues">
+          <a href="https://github.com/liuzhster/rent-api/issues" aria-label="Issues" class="js-selected-navigation-item sunken-menu-item js-disable-pjax" data-hotkey="g i" data-selected-links="repo_issues repo_labels repo_milestones /liuzhster/rent-api/issues">
+            <span class="octicon octicon-issue-opened"></span> <span class="full-word">Issues</span>
+            <span class="counter">15</span>
+
+            <img alt="" class="mini-loader" height="16" src="./liuzhster rent-api_files/octocat-spinner-32.gif" width="16">
+</a>        </li>
+
+      <li class="tooltipped tooltipped-w" aria-label="Pull Requests">
+        <a href="https://github.com/liuzhster/rent-api/pulls" aria-label="Pull Requests" class="js-selected-navigation-item sunken-menu-item js-disable-pjax" data-hotkey="g p" data-selected-links="repo_pulls /liuzhster/rent-api/pulls">
+            <span class="octicon octicon-git-pull-request"></span> <span class="full-word">Pull Requests</span>
+            <span class="counter">0</span>
+
+            <img alt="" class="mini-loader" height="16" src="./liuzhster rent-api_files/octocat-spinner-32.gif" width="16">
+</a>      </li>
+
+
+        <li class="tooltipped tooltipped-w" aria-label="Wiki">
+          <a href="https://github.com/liuzhster/rent-api/wiki" aria-label="Wiki" class="js-selected-navigation-item sunken-menu-item js-disable-pjax" data-hotkey="g w" data-selected-links="repo_wiki /liuzhster/rent-api/wiki">
+            <span class="octicon octicon-book"></span> <span class="full-word">Wiki</span>
+            <img alt="" class="mini-loader" height="16" src="./liuzhster rent-api_files/octocat-spinner-32.gif" width="16">
+</a>        </li>
+    </ul>
+    <div class="sunken-menu-separator"></div>
+    <ul class="sunken-menu-group">
+
+      <li class="tooltipped tooltipped-w" aria-label="Pulse">
+        <a href="https://github.com/liuzhster/rent-api/pulse/weekly" aria-label="Pulse" class="js-selected-navigation-item sunken-menu-item" data-pjax="true" data-selected-links="pulse /liuzhster/rent-api/pulse/weekly">
+          <span class="octicon octicon-pulse"></span> <span class="full-word">Pulse</span>
+          <img alt="" class="mini-loader" height="16" src="./liuzhster rent-api_files/octocat-spinner-32.gif" width="16">
+</a>      </li>
+
+      <li class="tooltipped tooltipped-w" aria-label="Graphs">
+        <a href="https://github.com/liuzhster/rent-api/graphs" aria-label="Graphs" class="js-selected-navigation-item sunken-menu-item" data-pjax="true" data-selected-links="repo_graphs repo_contributors /liuzhster/rent-api/graphs">
+          <span class="octicon octicon-graph"></span> <span class="full-word">Graphs</span>
+          <img alt="" class="mini-loader" height="16" src="./liuzhster rent-api_files/octocat-spinner-32.gif" width="16">
+</a>      </li>
+    </ul>
+
+
+  </div>
+</div>
+
+              <div class="only-with-full-nav">
+                
+  
+<div class="clone-url open" data-protocol-type="http" data-url="/users/set_protocol?protocol_selector=http&amp;protocol_type=push">
+  <h3><span class="text-emphasized">HTTPS</span> clone URL</h3>
+  <div class="input-group">
+    <input type="text" class="input-mini input-monospace js-url-field" value="https://github.com/liuzhster/rent-api.git" readonly="readonly">
+    <span class="input-group-button">
+      <button aria-label="Copy to clipboard" class="js-zeroclipboard minibutton zeroclipboard-button" data-clipboard-text="https://github.com/liuzhster/rent-api.git" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+    </span>
+  </div>
+</div>
+
+  
+<div class="clone-url " data-protocol-type="ssh" data-url="/users/set_protocol?protocol_selector=ssh&amp;protocol_type=push">
+  <h3><span class="text-emphasized">SSH</span> clone URL</h3>
+  <div class="input-group">
+    <input type="text" class="input-mini input-monospace js-url-field" value="git@github.com:liuzhster/rent-api.git" readonly="readonly">
+    <span class="input-group-button">
+      <button aria-label="Copy to clipboard" class="js-zeroclipboard minibutton zeroclipboard-button" data-clipboard-text="git@github.com:liuzhster/rent-api.git" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+    </span>
+  </div>
+</div>
+
+  
+<div class="clone-url " data-protocol-type="subversion" data-url="/users/set_protocol?protocol_selector=subversion&amp;protocol_type=push">
+  <h3><span class="text-emphasized">Subversion</span> checkout URL</h3>
+  <div class="input-group">
+    <input type="text" class="input-mini input-monospace js-url-field" value="https://github.com/liuzhster/rent-api" readonly="readonly">
+    <span class="input-group-button">
+      <button aria-label="Copy to clipboard" class="js-zeroclipboard minibutton zeroclipboard-button" data-clipboard-text="https://github.com/liuzhster/rent-api" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+    </span>
+  </div>
+</div>
+
+
+<p class="clone-options">You can clone with
+      <a href="https://github.com/liuzhster/rent-api#" class="js-clone-selector" data-protocol="http">HTTPS</a>,
+      <a href="https://github.com/liuzhster/rent-api#" class="js-clone-selector" data-protocol="ssh">SSH</a>,
+      or <a href="https://github.com/liuzhster/rent-api#" class="js-clone-selector" data-protocol="subversion">Subversion</a>.
+  <a href="https://help.github.com/articles/which-remote-url-should-i-use" class="help tooltipped tooltipped-n" aria-label="Get help on which URL is right for you.">
+    <span class="octicon octicon-question"></span>
+  </a>
+</p>
+
+
+  <a href="github-windows://openRepo/https://github.com/liuzhster/rent-api" class="minibutton sidebar-button" title="Save liuzhster/rent-api to your computer and use it in GitHub Desktop." aria-label="Save liuzhster/rent-api to your computer and use it in GitHub Desktop.">
+    <span class="octicon octicon-device-desktop"></span>
+    Clone in Desktop
+  </a>
+
+                <a href="https://github.com/liuzhster/rent-api/archive/master.zip" class="minibutton sidebar-button" aria-label="Download the contents of liuzhster/rent-api as a zip file" title="Download the contents of liuzhster/rent-api as a zip file" rel="nofollow">
+                  <span class="octicon octicon-cloud-download"></span>
+                  Download ZIP
+                </a>
+              </div>
+        </div><!-- /.repository-sidebar -->
+
+        <div id="js-repo-pjax-container" class="repository-content context-loader-container" data-pjax-container="">
+          
+<span id="js-show-full-navigation"></span>
+
+<div class="repository-meta js-details-container ">
+    <div class="repository-description">
+      <p>api for the rent app</p>
+    </div>
+
+
+
+</div>
+
+<div class="overall-summary overall-summary-bottomless">
+
+  <div class="stats-switcher-viewport js-stats-switcher-viewport">
+    <div class="stats-switcher-wrapper">
+    <ul class="numbers-summary">
+      <li class="commits">
+        <a data-pjax="" href="https://github.com/liuzhster/rent-api/commits/master">
+            <span class="octicon octicon-history"></span>
+            <span class="num text-emphasized">
+              174
+            </span>
+            commits
+        </a>
+      </li>
+      <li>
+        <a data-pjax="" href="https://github.com/liuzhster/rent-api/branches">
+          <span class="octicon octicon-git-branch"></span>
+          <span class="num text-emphasized">
+            1
+          </span>
+          branch
+        </a>
+      </li>
+
+      <li>
+        <a data-pjax="" href="https://github.com/liuzhster/rent-api/releases">
+          <span class="octicon octicon-tag"></span>
+          <span class="num text-emphasized">
+            0
+          </span>
+          releases
+        </a>
+      </li>
+
+      <li>
+        
+          <a href="https://github.com/liuzhster/rent-api/graphs/contributors">
+    <span class="octicon octicon-organization"></span>
+    <span class="num text-emphasized">
+      1
+    </span>
+    contributor
+  </a>
+      </li>
+    </ul>
+
+      <div class="repository-lang-stats">
+        <ol class="repository-lang-stats-numbers">
+          <li>
+              <a href="https://github.com/liuzhster/rent-api/search?l=javascript">
+                <span class="color-block language-color" style="background-color:#f1e05a;"></span>
+                <span class="lang">JavaScript</span>
+                <span class="percent">89.4%</span>
+              </a>
+          </li>
+          <li>
+              <a href="https://github.com/liuzhster/rent-api/search?l=css">
+                <span class="color-block language-color" style="background-color:#563d7c;"></span>
+                <span class="lang">CSS</span>
+                <span class="percent">10.5%</span>
+              </a>
+          </li>
+          <li>
+              <a href="https://github.com/liuzhster/rent-api/search?l=bash">
+                <span class="color-block language-color" style="background-color:#5861ce;"></span>
+                <span class="lang">Shell</span>
+                <span class="percent">0.1%</span>
+              </a>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+  <div class="tooltipped tooltipped-s" aria-label="Show language statistics">
+    <a href="https://github.com/liuzhster/rent-api#" class="repository-lang-stats-graph js-toggle-lang-stats" style="background-color:#5861ce">
+  <span class="language-color" style="width:89.4%; background-color:#f1e05a;" itemprop="keywords">JavaScript</span><span class="language-color" style="width:10.5%; background-color:#563d7c;" itemprop="keywords">CSS</span><span class="language-color" style="width:0.1%; background-color:#5861ce;" itemprop="keywords">Shell</span>
+    </a>
+  </div>
+
+<div class="js-socket-channel js-updatable-content" data-channel="liuzhster/rent-api:post-receive:bacy bacy/rent-api:post-receive:bacy" data-url="/liuzhster/rent-api/show_partial?partial=recently_touched_branches_list">
+  </div>
+
+<div class="file-navigation in-mid-page">
+  <a href="https://github.com/liuzhster/rent-api/find/master" class="js-show-file-finder minibutton empty-icon tooltipped tooltipped-s right" data-pjax="" data-hotkey="t" aria-label="Quickly jump between files">
+    <span class="octicon octicon-list-unordered"></span>
+  </a>
+    <a href="https://github.com/liuzhster/rent-api/compare" aria-label="Compare, review, create a pull request" class="minibutton primary tooltipped tooltipped-s left compare-button" data-pjax="">
+      <span class="octicon octicon-git-compare"></span>
+    </a>
+
+  
+<div class="select-menu js-menu-container js-select-menu left">
+  <span class="minibutton select-menu-button js-menu-target css-truncate" data-hotkey="w" data-master-branch="master" data-ref="master" title="master" role="button" aria-label="Switch branches or tags" tabindex="0" aria-haspopup="true">
+    <span class="octicon octicon-git-branch"></span>
+    <i>branch:</i>
+    <span class="js-select-button css-truncate-target">master</span>
+  </span>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax="" aria-hidden="true">
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <span class="select-menu-title">Switch branches/tags</span>
+        <span class="octicon octicon-x js-menu-close" role="button" aria-label="Close"></span>
+      </div> <!-- /.select-menu-header -->
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Find or create a branch…" id="context-commitish-filter-field" class="js-filterable-field js-navigation-enable" placeholder="Find or create a branch…">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="https://github.com/liuzhster/rent-api#" data-tab-filter="branches" class="js-select-menu-tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="https://github.com/liuzhster/rent-api#" data-tab-filter="tags" class="js-select-menu-tab">Tags</a>
+            </li>
+          </ul>
+        </div><!-- /.select-menu-tabs -->
+      </div><!-- /.select-menu-filters -->
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <div class="select-menu-item js-navigation-item selected">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="https://github.com/liuzhster/rent-api/tree/master" data-name="master" data-skip-pjax="true" rel="nofollow" class="js-navigation-open select-menu-item-text css-truncate-target" title="master">master</a>
+            </div> <!-- /.select-menu-item -->
+        </div>
+
+          <form accept-charset="UTF-8" action="https://github.com/liuzhster/rent-api/branches" class="js-create-branch select-menu-item select-menu-new-item-form js-navigation-item js-new-item-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="fHrIIHVZAq8v+AkhZ2Sk0unouJmIwoIkSPBkFIAShllddBSuLtBt/njWSyMRKVFEi1YPhX34HCsixk6ojVUfNA=="></div>
+            <span class="octicon octicon-git-branch select-menu-item-icon"></span>
+            <div class="select-menu-item-text">
+              <h4>Create branch: <span class="js-new-item-name"></span></h4>
+              <span class="description">from ‘master’</span>
+            </div>
+            <input type="hidden" name="name" id="name" class="js-new-item-value">
+            <input type="hidden" name="branch" id="branch" value="master">
+            <input type="hidden" name="path" id="path" value="">
+          </form> <!-- /.select-menu-item -->
+
+      </div> <!-- /.select-menu-list -->
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div> <!-- /.select-menu-list -->
+
+    </div> <!-- /.select-menu-modal -->
+  </div> <!-- /.select-menu-modal-holder -->
+</div> <!-- /.select-menu -->
+
+
+
+  <div class="breadcrumb"><span class="repo-root js-repo-root"><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="./liuzhster rent-api_files/liuzhster rent-api.htm" class="" data-branch="master" data-direction="back" data-pjax="true" itemscope="url"><span itemprop="title">rent-api</span></a></span></span><span class="separator"> / </span><form action="https://github.com/liuzhster/rent-api/new/master" aria-label="Create a new file here" class="js-new-blob-form tooltipped tooltipped-e new-file-link" method="post"><span aria-label="Create a new file here" class="js-new-blob-submit octicon octicon-plus" data-test-id="create-new-git-file" role="button"></span></form></div>
+</div>
+
+
+
+  
+    <div class="commit commit-tease js-details-container">
+    <p class="commit-title ">
+        <a href="https://github.com/liuzhster/rent-api/commit/3b448b0af1a311879c14a2b631e45bd1bdc11d4c" class="message" data-pjax="true" title="delete dinings">delete dinings</a>
+        
+    </p>
+    <div class="commit-meta">
+      <button aria-label="Copy SHA" class="js-zeroclipboard zeroclipboard-link" data-clipboard-text="3b448b0af1a311879c14a2b631e45bd1bdc11d4c" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+      <a href="https://github.com/liuzhster/rent-api/commit/3b448b0af1a311879c14a2b631e45bd1bdc11d4c" class="sha-block" data-pjax="">latest commit <span class="sha">3b448b0af1</span></a>
+
+      <div class="authorship">
+        <img alt="liuzhster" class="avatar" data-user="3897304" height="20" src="./liuzhster rent-api_files/3897304" width="20">
+        <span class="author-name"><a href="https://github.com/liuzhster" rel="author">liuzhster</a></span>
+        authored <time class="updated" datetime="2014-10-06T10:13:51Z" is="relative-time" title="2014年10月6日 下午6:13 格林尼治标准时间+0800">12 days ago</time>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="file-wrap">
+    <table class="files" data-pjax="">
+
+      <tbody class="" data-url="/liuzhster/rent-api/file-list/master" data-deferred-content-error="Failed to load latest commit information.">
+
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-directory"></span>
+        <img alt="" class="spinner" height="16" src="./liuzhster rent-api_files/octocat-spinner-32.gif" width="16">
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="https://github.com/liuzhster/rent-api/tree/master/.settings" class="js-directory-link" id="80dbd6eeac5e4fcdc70419e17b1b45cd-f38e563c9780fbb0601b8d638d3c9c6bd90b07c4" title=".settings">.settings</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target ">
+          <a href="https://github.com/liuzhster/rent-api/commit/bdbde31ced25dec15f41439940e6aa0ee6699384" class="message" data-pjax="true" title="init storage">init storage</a>
+        </span>
+      </td>
+      <td class="age">
+        <span class="css-truncate css-truncate-target"><time datetime="2013-06-21T14:13:02Z" is="time-ago" title="2013年6月21日 下午10:13 格林尼治标准时间+0800">a year ago</time></span>
+      </td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-directory"></span>
+        <img alt="" class="spinner" height="16" src="./liuzhster rent-api_files/octocat-spinner-32.gif" width="16">
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="https://github.com/liuzhster/rent-api/tree/master/html" class="js-directory-link" id="fc35fdc70d5fc69d269883a822c7a53e-98b1ee038e6fe2cec104915b96aab834df72a4f1" title="html">html</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target ">
+          <a href="https://github.com/liuzhster/rent-api/commit/dae8aa8688a5df9ddbd06eb6281c4ad58cafac69" class="message" data-pjax="true" title="publish">publish</a>
+        </span>
+      </td>
+      <td class="age">
+        <span class="css-truncate css-truncate-target"><time datetime="2014-10-06T09:57:54Z" is="time-ago" title="2014年10月6日 下午5:57 格林尼治标准时间+0800">12 days ago</time></span>
+      </td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-directory"></span>
+        <img alt="" class="spinner" height="16" src="./liuzhster rent-api_files/octocat-spinner-32.gif" width="16">
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="https://github.com/liuzhster/rent-api/tree/master/models" class="js-directory-link" id="ac5552fd6a3c08ad22387efbe42d137d-11c3a45bc9739afe1421444f7d0cfbc2d3ae1ae7" title="models">models</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target ">
+          <a href="https://github.com/liuzhster/rent-api/commit/3b448b0af1a311879c14a2b631e45bd1bdc11d4c" class="message" data-pjax="true" title="delete dinings">delete dinings</a>
+        </span>
+      </td>
+      <td class="age">
+        <span class="css-truncate css-truncate-target"><time datetime="2014-10-06T10:13:51Z" is="time-ago" title="2014年10月6日 下午6:13 格林尼治标准时间+0800">12 days ago</time></span>
+      </td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-directory"></span>
+        <img alt="" class="spinner" height="16" src="./liuzhster rent-api_files/octocat-spinner-32.gif" width="16">
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="https://github.com/liuzhster/rent-api/tree/master/modules" class="js-directory-link" id="0eb9b3af2e4a00837a1b1a854c9ea18c-f62006bd677f08d0a9cb967451a9b539d3f7a398" title="modules">modules</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target ">
+          <a href="https://github.com/liuzhster/rent-api/commit/3087d5c927f04d2f3a36d53b7771a8cdcc2a13a8" class="message" data-pjax="true" title="login">login</a>
+        </span>
+      </td>
+      <td class="age">
+        <span class="css-truncate css-truncate-target"><time datetime="2014-03-29T10:57:32Z" is="time-ago" title="2014年3月29日 下午6:57 格林尼治标准时间+0800">7 months ago</time></span>
+      </td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-directory"></span>
+        <img alt="" class="spinner" height="16" src="./liuzhster rent-api_files/octocat-spinner-32.gif" width="16">
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="https://github.com/liuzhster/rent-api/tree/master/public" class="js-directory-link" id="4c9184f37cff01bcdc32dc486ec36961-c9107d2a8ac4c6eb1df1e2b9dfa95ccf4d8000b5" title="public">public</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target ">
+          <a href="https://github.com/liuzhster/rent-api/commit/3b448b0af1a311879c14a2b631e45bd1bdc11d4c" class="message" data-pjax="true" title="delete dinings">delete dinings</a>
+        </span>
+      </td>
+      <td class="age">
+        <span class="css-truncate css-truncate-target"><time datetime="2014-10-06T10:13:51Z" is="time-ago" title="2014年10月6日 下午6:13 格林尼治标准时间+0800">12 days ago</time></span>
+      </td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-directory"></span>
+        <img alt="" class="spinner" height="16" src="./liuzhster rent-api_files/octocat-spinner-32.gif" width="16">
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="https://github.com/liuzhster/rent-api/tree/master/routes" class="js-directory-link" id="1755347e5f6a762b84a3f6512a3e4e53-c1afeba9978d53f33f2bc45a0f5f3688afc35649" title="routes">routes</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target ">
+          <a href="https://github.com/liuzhster/rent-api/commit/dae8aa8688a5df9ddbd06eb6281c4ad58cafac69" class="message" data-pjax="true" title="publish">publish</a>
+        </span>
+      </td>
+      <td class="age">
+        <span class="css-truncate css-truncate-target"><time datetime="2014-10-06T09:57:54Z" is="time-ago" title="2014年10月6日 下午5:57 格林尼治标准时间+0800">12 days ago</time></span>
+      </td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-directory"></span>
+        <img alt="" class="spinner" height="16" src="./liuzhster rent-api_files/octocat-spinner-32.gif" width="16">
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="https://github.com/liuzhster/rent-api/tree/master/test" class="js-directory-link" id="098f6bcd4621d373cade4e832627b4f6-d13efff668ab095c3228a1a6b57cd02f9eda22da" title="test">test</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target ">
+          <a href="https://github.com/liuzhster/rent-api/commit/46f58ddecaa3a7ed0a70d9bfa31487b09c8ebe41" class="message" data-pjax="true" title="page for management">page for management</a>
+        </span>
+      </td>
+      <td class="age">
+        <span class="css-truncate css-truncate-target"><time datetime="2013-09-10T15:03:34Z" is="time-ago" title="2013年9月10日 下午11:03 格林尼治标准时间+0800">a year ago</time></span>
+      </td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-directory"></span>
+        <img alt="" class="spinner" height="16" src="./liuzhster rent-api_files/octocat-spinner-32.gif" width="16">
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="https://github.com/liuzhster/rent-api/tree/master/views" class="js-directory-link" id="59a14a5786fe7a105d780bb1e1e2b21b-f88cdf368bb541576cf5b00e2f89b1758b6461d6" title="views">views</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target ">
+          <a href="https://github.com/liuzhster/rent-api/commit/fc07bc0fd760cae400adcb885235133e155dd7cc" class="message" data-pjax="true" title="page">page</a>
+        </span>
+      </td>
+      <td class="age">
+        <span class="css-truncate css-truncate-target"><time datetime="2014-06-29T14:57:22Z" is="time-ago" title="2014年6月29日 下午10:57 格林尼治标准时间+0800">4 months ago</time></span>
+      </td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="" class="spinner" height="16" src="./liuzhster rent-api_files/octocat-spinner-32.gif" width="16">
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="https://github.com/liuzhster/rent-api/blob/master/.gitignore" class="js-directory-link" id="a084b794bc0759e7a6b77810e01874f2-02a1e19767b29c8314b3f954e1857789f980bf32" title=".gitignore">.gitignore</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target ">
+          <a href="https://github.com/liuzhster/rent-api/commit/f7c59dd6acd53d8bebfa47c2c9825ea6691ddfa8" class="message" data-pjax="true" title="ignore">ignore</a>
+        </span>
+      </td>
+      <td class="age">
+        <span class="css-truncate css-truncate-target"><time datetime="2014-04-06T06:41:09Z" is="time-ago" title="2014年4月6日 下午2:41 格林尼治标准时间+0800">7 months ago</time></span>
+      </td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="" class="spinner" height="16" src="./liuzhster rent-api_files/octocat-spinner-32.gif" width="16">
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="https://github.com/liuzhster/rent-api/blob/master/.project" class="js-directory-link" id="267c7db53673cb611d5c91164fdd974b-35af2f2f2e799ee724412c3a944f4ec37c0b51f8" title=".project">.project</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target ">
+          <a href="https://github.com/liuzhster/rent-api/commit/bdbde31ced25dec15f41439940e6aa0ee6699384" class="message" data-pjax="true" title="init storage">init storage</a>
+        </span>
+      </td>
+      <td class="age">
+        <span class="css-truncate css-truncate-target"><time datetime="2013-06-21T14:13:02Z" is="time-ago" title="2013年6月21日 下午10:13 格林尼治标准时间+0800">a year ago</time></span>
+      </td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="" class="spinner" height="16" src="./liuzhster rent-api_files/octocat-spinner-32.gif" width="16">
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="https://github.com/liuzhster/rent-api/blob/master/README.md" class="js-directory-link" id="04c6e90faac2675aa89e2176d2eec7d8-35185db7da0e8b813e307c04e39ca549b1e5d0f6" title="README.md">README.md</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target ">
+          <a href="https://github.com/liuzhster/rent-api/commit/171cfd37ebf6eae598d66b32559edccaabf817dd" class="message" data-pjax="true" title="readme">readme</a>
+        </span>
+      </td>
+      <td class="age">
+        <span class="css-truncate css-truncate-target"><time datetime="2014-05-24T13:47:53Z" is="time-ago" title="2014年5月24日 下午9:47 格林尼治标准时间+0800">5 months ago</time></span>
+      </td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="" class="spinner" height="16" src="./liuzhster rent-api_files/octocat-spinner-32.gif" width="16">
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="https://github.com/liuzhster/rent-api/blob/master/app.js" class="js-directory-link" id="0364f57fbff2fabbe941ed20c328ef1a-fdbc004b24a99780b6acc16c7117b0f243af0c43" title="app.js">app.js</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target ">
+          <a href="https://github.com/liuzhster/rent-api/commit/1bd05e74f1dbbfe47eeaa1d8a0de595f80092c8e" class="message" data-pjax="true" title="delete dining">delete dining</a>
+        </span>
+      </td>
+      <td class="age">
+        <span class="css-truncate css-truncate-target"><time datetime="2014-10-06T07:42:52Z" is="time-ago" title="2014年10月6日 下午3:42 格林尼治标准时间+0800">12 days ago</time></span>
+      </td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="" class="spinner" height="16" src="./liuzhster rent-api_files/octocat-spinner-32.gif" width="16">
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="https://github.com/liuzhster/rent-api/blob/master/config.js" class="js-directory-link" id="e22b50e740e102c8de5e858dbcd7753d-f78d27a86826331e007cefed58c2b6c907f8209c" title="config.js">config.js</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target ">
+          <a href="https://github.com/liuzhster/rent-api/commit/97f40037f773f7cf67fa7a7107349c02f193a28a" class="message" data-pjax="true" title="update interface">update interface</a>
+        </span>
+      </td>
+      <td class="age">
+        <span class="css-truncate css-truncate-target"><time datetime="2014-03-22T02:24:58Z" is="time-ago" title="2014年3月22日 上午10:24 格林尼治标准时间+0800">7 months ago</time></span>
+      </td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="" class="spinner" height="16" src="./liuzhster rent-api_files/octocat-spinner-32.gif" width="16">
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="https://github.com/liuzhster/rent-api/blob/master/package.json" class="js-directory-link" id="b9cfc7f2cdf78a7f4b91a753d10865a2-818965151703d9a61edd69439dc7b3cdf3f83f8a" title="package.json">package.json</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target ">
+          <a href="https://github.com/liuzhster/rent-api/commit/fc07bc0fd760cae400adcb885235133e155dd7cc" class="message" data-pjax="true" title="page">page</a>
+        </span>
+      </td>
+      <td class="age">
+        <span class="css-truncate css-truncate-target"><time datetime="2014-06-29T14:57:22Z" is="time-ago" title="2014年6月29日 下午10:57 格林尼治标准时间+0800">4 months ago</time></span>
+      </td>
+    </tr>
+</tbody>
+
+    </table>
+  </div>
+
+
+  <div id="readme" class="boxed-group flush clearfix announce instapaper_body md">
+    <h3>
+      <span class="octicon octicon-book"></span>
+      README.md
+    </h3>
+
+    <article class="markdown-body entry-content" itemprop="mainContentOfPage"><h1>
+<a name="user-content-rent-api" class="anchor" href="https://github.com/liuzhster/rent-api#rent-api" aria-hidden="true"><span class="octicon octicon-link"></span></a>RENT-API</h1>
+
+<p>api for the rent app</p>
+
+<h2>
+<a name="user-content-usage" class="anchor" href="https://github.com/liuzhster/rent-api#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage</h2>
+
+<h3>
+<a name="user-content-1-districts" class="anchor" href="https://github.com/liuzhster/rent-api#1-districts" aria-hidden="true"><span class="octicon octicon-link"></span></a>1. districts</h3>
+
+<p>load all districts data</p>
+
+<p><strong>method:</strong> REST (GET)<br>
+<strong>url:</strong> /areas/:lang/districts.:format<br>
+<strong>variables:</strong></p>
+
+<ul class="task-list">
+<li>lang: language of returned (required, en|zh)</li>
+<li>format: format of returned (required, only support json currently)</li>
+</ul>
+
+<p><strong>response:</strong></p>
+
+<div class="highlight highlight-javascript"><pre><span class="p">[</span>
+  <span class="s2">"Xuhui"</span><span class="p">,</span>
+  <span class="s2">"Changning"</span><span class="p">,</span>
+  <span class="s2">"Pudong"</span><span class="p">,</span>
+  <span class="s2">"Luwan"</span><span class="p">,</span>
+  <span class="s2">"Jing'an"</span><span class="p">,</span>
+  <span class="s2">"Huangpu"</span><span class="p">,</span>
+  <span class="s2">"Hongkou"</span>
+<span class="p">]</span>
+</pre></div>
+
+<h3>
+<a name="user-content-2-cbd" class="anchor" href="https://github.com/liuzhster/rent-api#2-cbd" aria-hidden="true"><span class="octicon octicon-link"></span></a>2. CBD</h3>
+
+<p>query CBDs by district</p>
+
+<p><strong>method:</strong> REST (GET)<br>
+<strong>url:</strong> /areas/:lang/:district/CBDs.:format<br>
+<strong>variables:</strong></p>
+
+<ul class="task-list">
+<li>lang: language of returned (required, en|zh)</li>
+<li>district: which district you want to query(required, such as Xuhui or 徐汇区)</li>
+<li>format: format of returned (required, only support json currently)</li>
+</ul>
+
+<p><strong>response:</strong></p>
+
+<div class="highlight highlight-javascript"><pre><span class="p">[</span>
+  <span class="s2">"Dongping Road"</span><span class="p">,</span>
+  <span class="s2">"Fuxinxi Road"</span><span class="p">,</span>
+  <span class="s2">"Hengshan Road"</span><span class="p">,</span>
+  <span class="s2">"Huaihai Road"</span><span class="p">,</span>
+  <span class="s2">"Xujiahui"</span><span class="p">,</span>
+  <span class="s2">"Yongkang Road"</span><span class="p">,</span>
+  <span class="s2">"Zhaojiabang Road"</span>
+<span class="p">]</span>
+</pre></div>
+
+<h3>
+<a name="user-content-3-districts-cbd" class="anchor" href="https://github.com/liuzhster/rent-api#3-districts-cbd" aria-hidden="true"><span class="octicon octicon-link"></span></a>3. districts-CBD</h3>
+
+<p>query all districts and CBD as initialize data</p>
+
+<p><strong>method:</strong> REST (GET)<br>
+<strong>url:</strong> /areas/:lang/districts-CBD.:format<br>
+<strong>variables:</strong></p>
+
+<ul class="task-list">
+<li>lang: language of returned (required, en|zh)</li>
+<li>format: format of returned (required, only support json currently)</li>
+</ul>
+
+<p><strong>response:</strong></p>
+
+<div class="highlight highlight-javascript"><pre><span class="p">{</span>
+  <span class="s2">"Xuhui"</span><span class="o">:</span> <span class="p">[</span>
+    <span class="s2">"Yongkang Road"</span><span class="p">,</span>
+    <span class="s2">"Zhaojiabang Road"</span><span class="p">,</span>
+    <span class="s2">"Xujiahui"</span><span class="p">,</span>
+    <span class="s2">"Huaihai Road"</span><span class="p">,</span>
+    <span class="s2">"Hengshan Road"</span><span class="p">,</span>
+    <span class="s2">"Fuxinxi Road"</span><span class="p">,</span>
+    <span class="s2">"Dongping Road"</span>
+  <span class="p">],</span>
+  <span class="s2">"Changning"</span><span class="o">:</span> <span class="p">[</span>
+    <span class="s2">"Zhongshan Park"</span><span class="p">,</span>
+    <span class="s2">"Gubei"</span>
+  <span class="p">],</span>
+  <span class="p">...</span>
+<span class="p">}</span>
+</pre></div>
+
+<h3>
+<a name="user-content-4-init-data" class="anchor" href="https://github.com/liuzhster/rent-api#4-init-data" aria-hidden="true"><span class="octicon octicon-link"></span></a>4. init-data</h3>
+
+<p>get all init data</p>
+
+<p><strong>method:</strong> REST (GET)<br>
+<strong>url:</strong> /app/init-data.:format<br>
+<strong>variables:</strong></p>
+
+<ul class="task-list">
+<li>format: format of returned (required, json or xml)</li>
+</ul>
+
+<p><strong>response:</strong></p>
+
+<div class="highlight highlight-javascript"><pre><span class="o">&lt;</span><span class="nx">data</span><span class="o">&gt;</span>
+ <span class="o">&lt;</span><span class="nx">subways</span><span class="o">&gt;</span>
+  <span class="o">&lt;</span><span class="nx">code</span> <span class="nx">id</span><span class="o">=</span><span class="s2">"51d7e8a550be5e0000000033"</span> <span class="nx">sortNumber</span><span class="o">=</span><span class="s2">"1"</span> <span class="nx">key</span><span class="o">=</span><span class="s2">"51d7e8a550be5e0000000033"</span> <span class="nx">zhName</span><span class="o">=</span><span class="s2">"地铁1号线"</span> <span class="nx">enName</span><span class="o">=</span><span class="s2">"Line 1"</span> <span class="nx">parentId</span><span class="o">=</span><span class="s2">""</span><span class="o">&gt;</span>
+    <span class="o">&lt;</span><span class="nx">code</span> <span class="nx">id</span><span class="o">=</span><span class="s2">"51d7e8a550be5e0000000017"</span> <span class="nx">sortNumber</span><span class="o">=</span><span class="s2">"1"</span> <span class="nx">key</span><span class="o">=</span><span class="s2">"51d7e8a550be5e0000000017"</span> <span class="nx">zhName</span><span class="o">=</span><span class="s2">"莘庄"</span> <span class="nx">enName</span><span class="o">=</span><span class="s2">"Xinzhuang"</span> <span class="nx">parentId</span><span class="o">=</span><span class="s2">"51d7e8a550be5e0000000033"</span> <span class="o">/&gt;</span>
+    <span class="o">&lt;</span><span class="nx">code</span> <span class="nx">id</span><span class="o">=</span><span class="s2">"51d7e8a550be5e0000000018"</span> <span class="nx">sortNumber</span><span class="o">=</span><span class="s2">"2"</span> <span class="nx">key</span><span class="o">=</span><span class="s2">"51d7e8a550be5e0000000018"</span> <span class="nx">zhName</span><span class="o">=</span><span class="s2">"外环路"</span> <span class="nx">enName</span><span class="o">=</span><span class="s2">"Waihuanlu"</span> <span class="nx">parentId</span><span class="o">=</span><span class="s2">"51d7e8a550be5e0000000033"</span> <span class="o">/&gt;</span>
+    <span class="p">...</span>
+  <span class="o">&lt;</span><span class="err">/code&gt;</span>
+  <span class="p">...</span>
+ <span class="o">&lt;</span><span class="err">/subways&gt;</span>
+ <span class="o">&lt;</span><span class="nx">districts</span><span class="o">&gt;</span>
+  <span class="o">&lt;</span><span class="nx">code</span> <span class="nx">id</span><span class="o">=</span><span class="s2">"51d7e8a550be5e0000000013"</span> <span class="nx">sortNumber</span><span class="o">=</span><span class="s2">"1"</span> <span class="nx">key</span><span class="o">=</span><span class="s2">"51d7e8a550be5e0000000013"</span> <span class="nx">zhName</span><span class="o">=</span><span class="s2">"徐汇区"</span> <span class="nx">enName</span><span class="o">=</span><span class="s2">"Xuhui"</span><span class="o">&gt;</span>
+    <span class="o">&lt;</span><span class="nx">code</span> <span class="nx">id</span><span class="o">=</span><span class="s2">"51d7e8a550be5e0000000013"</span> <span class="nx">sortNumber</span><span class="o">=</span><span class="s2">"1"</span> <span class="nx">key</span><span class="o">=</span><span class="s2">"51d7e8a550be5e0000000013"</span> <span class="nx">zhName</span><span class="o">=</span><span class="s2">"永康路"</span> <span class="nx">enName</span><span class="o">=</span><span class="s2">"Yongkang Road"</span> <span class="nx">parentId</span><span class="o">=</span><span class="s2">"51d7e8a550be5e0000000013"</span> <span class="o">/&gt;</span>
+    <span class="o">&lt;</span><span class="nx">code</span> <span class="nx">id</span><span class="o">=</span><span class="s2">"51d7e8a550be5e0000000014"</span> <span class="nx">sortNumber</span><span class="o">=</span><span class="s2">"2"</span> <span class="nx">key</span><span class="o">=</span><span class="s2">"51d7e8a550be5e0000000014"</span> <span class="nx">zhName</span><span class="o">=</span><span class="s2">"肇嘉浜路"</span> <span class="nx">enName</span><span class="o">=</span><span class="s2">"Zhaojiabang Road"</span> <span class="nx">parentId</span><span class="o">=</span><span class="s2">"51d7e8a550be5e0000000013"</span> <span class="o">/&gt;</span>
+    <span class="p">...</span>
+  <span class="o">&lt;</span><span class="err">/code&gt;</span>
+  <span class="p">...</span>
+ <span class="o">&lt;</span><span class="err">/districts&gt;</span>
+ <span class="o">&lt;</span><span class="nx">communities</span><span class="o">&gt;</span>
+  <span class="o">&lt;</span><span class="nx">code</span> <span class="nx">id</span><span class="o">=</span><span class="s2">"522f32f046ae4ad00c000001"</span> <span class="nx">sortNumber</span><span class="o">=</span><span class="s2">"1"</span> <span class="nx">key</span><span class="o">=</span><span class="s2">"522f32f046ae4ad00c000001"</span> <span class="nx">zhName</span><span class="o">=</span><span class="s2">"测试"</span> <span class="nx">enName</span><span class="o">=</span><span class="s2">"test"</span> <span class="o">/&gt;</span>
+ <span class="o">&lt;</span><span class="err">/communities&gt;</span>
+<span class="o">&lt;</span><span class="err">/data&gt;</span>
+
+</pre></div>
+
+<h3>
+<a name="user-content-5-publish-house" class="anchor" href="https://github.com/liuzhster/rent-api#5-publish-house" aria-hidden="true"><span class="octicon octicon-link"></span></a>5. publish house</h3>
+
+<p>publish the house information</p>
+
+<p><strong>method:</strong> REST (POST)<br>
+<strong>url:</strong> /houses/publish.:format<br>
+<strong>variables:</strong></p>
+
+<ul class="task-list">
+<li>format: format of returned (required, only support json currently)</li>
+<li>name_zh: name in Chinese</li>
+<li>name_en: name in English (required)</li>
+<li>houseType: type of the house(a reference id of houseType model)</li>
+<li>floor: floor of the house</li>
+<li>longitude</li>
+<li>latitude</li>
+<li>price</li>
+<li>rooms</li>
+<li>share</li>
+<li>size</li>
+<li>totalFloor</li>
+<li>address</li>
+<li>area: area of the house(a reference id of area model)</li>
+<li>metro: metro near the house(a reference id of metro model)</li>
+<li>description_zh: description in Chinese</li>
+<li>description_en: description in English</li>
+<li>access_token: token after login</li>
+<li>files: image of the house(send in request.files)</li>
+</ul>
+
+<p><strong>response:</strong>
+status 200 or 400</p>
+
+<h3>
+<a name="user-content-6-upload-image" class="anchor" href="https://github.com/liuzhster/rent-api#6-upload-image" aria-hidden="true"><span class="octicon octicon-link"></span></a>6. upload-image</h3>
+
+<p>upload pictures for house</p>
+
+<p><strong>method:</strong> REST (POST)<br>
+<strong>url:</strong> /houses/upload-image/:house-id<br>
+<strong>variables:</strong></p>
+
+<ul class="task-list">
+<li>house-id: the id of the house (required)</li>
+<li>file: the picture file</li>
+</ul>
+
+<p><strong>response:</strong>
+status 200 or 400</p>
+
+<h3>
+<a name="user-content-7-search-house" class="anchor" href="https://github.com/liuzhster/rent-api#7-search-house" aria-hidden="true"><span class="octicon octicon-link"></span></a>7. search house</h3>
+
+<p>query the houses by some condition, return the data order by appointed field</p>
+
+<p><strong>method:</strong> REST (GET)<br>
+<strong>url:</strong> /houses/:lang/:orderBy/:page.:format<br>
+<strong>variables:</strong></p>
+
+<ul class="task-list">
+<li>lang: language of returned (required, en|zh)</li>
+<li>page: page of returned (required)</li>
+<li>orderBy: the order of the response( format like "-publishDate" means order by publishDate desc, and "publishDate" means by publishDate asc)</li>
+<li>
+<p>format: format of returned (required, only support json currently)</p>
+
+<ul class="task-list">
+<li>keyword return the info which contains specified keyword in name_zh/name_en/description_zh/description_en/address</li>
+<li>longitude</li>
+<li>latitude</li>
+<li>maxDistance(optional, default is 2(units is km))</li>
+<li>price : format as 1-3(&gt;=1 and &lt;=3),5+(&gt;=5)</li>
+<li>bedrooms : format as 3(=3),1-4(&gt;=1 and &lt;=4),5+(&gt;=5)
+(other params)</li>
+</ul>
+</li>
+<li>area: id of area (optional)</li>
+<li>metro: id of metro (optional)</li>
+<li>floor: floor of the house (optional)</li>
+<li>houseType: type of the house (optional)</li>
+<li>publisher: id of publisher (optional)</li>
+<li>longitude： longitude of the house (optional)</li>
+<li>latitude: latitude of the house (optional)</li>
+</ul>
+
+<p><strong>response:</strong></p>
+
+<div class="highlight highlight-javascript"><pre><span class="p">[</span>
+  <span class="p">{</span>
+    <span class="s2">"__v"</span><span class="o">:</span> <span class="mi">10</span><span class="p">,</span>
+    <span class="s2">"_id"</span><span class="o">:</span> <span class="s2">"51e0e380f1e3e3e4d3000001"</span><span class="p">,</span>
+    <span class="s2">"description"</span><span class="o">:</span> <span class="s2">"testtest"</span><span class="p">,</span>
+    <span class="s2">"floor"</span><span class="o">:</span> <span class="mi">3</span><span class="p">,</span>
+    <span class="s2">"houseType"</span><span class="o">:</span> <span class="s2">"51d7e950b505760000000001"</span><span class="p">,</span>
+    <span class="s2">"latitude"</span><span class="o">:</span> <span class="mi">90</span><span class="p">,</span>
+    <span class="s2">"longitude"</span><span class="o">:</span> <span class="mi">102</span><span class="p">,</span>
+    <span class="s2">"name"</span><span class="o">:</span> <span class="s2">"test"</span><span class="p">,</span>
+    <span class="s2">"publisher"</span><span class="o">:</span> <span class="mi">15900756869</span><span class="p">,</span>
+    <span class="s2">"pictures"</span><span class="o">:</span> <span class="p">[</span>
+      <span class="s2">"51e0e380f1e3e3e4d3000001forbenjaminpage-4.jpg"</span>
+    <span class="p">],</span>
+    <span class="s2">"isVerified"</span><span class="o">:</span> <span class="kc">false</span><span class="p">,</span>
+    <span class="s2">"publishDate"</span><span class="o">:</span> <span class="s2">"2013-07-13T05:20:00.860Z"</span><span class="p">,</span>
+    <span class="s2">"metro"</span><span class="o">:</span> <span class="p">[</span>
+      <span class="s2">"51d7e8a550be5e0000000074"</span>
+    <span class="p">],</span>
+    <span class="s2">"area"</span><span class="o">:</span> <span class="p">[</span>
+      <span class="s2">"51d7e8a550be5e0000000016"</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="s2">"name"</span><span class="o">:</span> <span class="s2">"test"</span><span class="p">,</span>
+    <span class="s2">"houseType"</span><span class="o">:</span> <span class="s2">"51d7e950b505760000000001"</span><span class="p">,</span>
+    <span class="s2">"floor"</span><span class="o">:</span> <span class="mi">3</span><span class="p">,</span>
+    <span class="s2">"longitude"</span><span class="o">:</span> <span class="mi">102</span><span class="p">,</span>
+    <span class="s2">"latitude"</span><span class="o">:</span> <span class="mi">90</span><span class="p">,</span>
+    <span class="s2">"description"</span><span class="o">:</span> <span class="s2">"testtest"</span><span class="p">,</span>
+    <span class="s2">"publisher"</span><span class="o">:</span> <span class="mi">15900756869</span><span class="p">,</span>
+    <span class="s2">"_id"</span><span class="o">:</span> <span class="s2">"51ea00cc5722f59c4e000001"</span><span class="p">,</span>
+    <span class="s2">"__v"</span><span class="o">:</span> <span class="mi">0</span><span class="p">,</span>
+    <span class="s2">"pictures"</span><span class="o">:</span> <span class="p">[],</span>
+    <span class="s2">"isVerified"</span><span class="o">:</span> <span class="kc">false</span><span class="p">,</span>
+    <span class="s2">"publishDate"</span><span class="o">:</span> <span class="s2">"2013-07-20T03:15:24.380Z"</span><span class="p">,</span>
+    <span class="s2">"metro"</span><span class="o">:</span> <span class="p">[</span>
+      <span class="s2">"51d7e8a550be5e0000000074"</span>
+    <span class="p">],</span>
+    <span class="s2">"area"</span><span class="o">:</span> <span class="p">[</span>
+      <span class="s2">"51d7e8a550be5e0000000016"</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">...</span>
+<span class="p">]</span>
+</pre></div>
+
+<h3>
+<a name="user-content-8-user-register" class="anchor" href="https://github.com/liuzhster/rent-api#8-user-register" aria-hidden="true"><span class="octicon octicon-link"></span></a>8. user register</h3>
+
+<p>register into the system</p>
+
+<p><strong>method:</strong> REST (POST)<br>
+<strong>url:</strong> /users/register.:format<br>
+<strong>variables:</strong></p>
+
+<ul class="task-list">
+<li>format: format of returned (required, only support json currently)</li>
+<li>phone: phone of the user (required, saved as the id of the user)</li>
+<li>name: (required)</li>
+<li>pass: (required)</li>
+<li>address: (optional)</li>
+<li>company: (optional)</li>
+<li>profile_image:(optional)</li>
+<li>type: type of the user (required, seller or consumer)</li>
+<li>token: for ios (optional)</li>
+</ul>
+
+<p><strong>response:</strong>
+status 200 or 400</p>
+
+<h3>
+<a name="user-content-9-house-detail" class="anchor" href="https://github.com/liuzhster/rent-api#9-house-detail" aria-hidden="true"><span class="octicon octicon-link"></span></a>9. house detail</h3>
+
+<p>return the detail information of the house</p>
+
+<p><strong>method:</strong> REST (GET)<br>
+<strong>url:</strong> /house/:lang/:house-id.:format<br>
+<strong>variables:</strong></p>
+
+<ul class="task-list">
+<li>format: format of returned (required, only support json currently)</li>
+<li>house-id: id of the house (required)</li>
+<li>lang: language of returned (required, en|zh)</li>
+</ul>
+
+<p><strong>response:</strong></p>
+
+<div class="highlight highlight-javascript"><pre><span class="p">{</span>
+  <span class="s2">"__v"</span><span class="o">:</span> <span class="mi">10</span><span class="p">,</span>
+  <span class="s2">"_id"</span><span class="o">:</span> <span class="s2">"51e0e380f1e3e3e4d3000001"</span><span class="p">,</span>
+  <span class="s2">"description"</span><span class="o">:</span> <span class="s2">"testtest"</span><span class="p">,</span>
+  <span class="s2">"floor"</span><span class="o">:</span> <span class="mi">3</span><span class="p">,</span>
+  <span class="s2">"houseType"</span><span class="o">:</span> <span class="s2">"51d7e950b505760000000001"</span><span class="p">,</span>
+  <span class="s2">"latitude"</span><span class="o">:</span> <span class="mi">90</span><span class="p">,</span>
+  <span class="s2">"longitude"</span><span class="o">:</span> <span class="mi">102</span><span class="p">,</span>
+  <span class="s2">"name"</span><span class="o">:</span> <span class="s2">"test"</span><span class="p">,</span>
+  <span class="s2">"publisher"</span><span class="o">:</span> <span class="mi">15900756869</span><span class="p">,</span>
+  <span class="s2">"pictures"</span><span class="o">:</span> <span class="p">[</span>
+    <span class="s2">"51e0e380f1e3e3e4d3000001forbenjaminpage-4.jpg"</span>
+  <span class="p">],</span>
+  <span class="s2">"dinings"</span><span class="o">:</span> <span class="p">[</span>
+        <span class="p">{</span>
+            <span class="s2">"location"</span><span class="o">:</span> <span class="p">[</span>
+                <span class="mf">121.436428</span><span class="p">,</span>
+                <span class="mf">31.166243</span>
+            <span class="p">],</span>
+            <span class="s2">"name_zh"</span><span class="o">:</span> <span class="s2">"name_zh"</span><span class="p">,</span>
+            <span class="s2">"name_en"</span><span class="o">:</span> <span class="s2">"name_en"</span><span class="p">,</span>
+            <span class="s2">"type"</span><span class="o">:</span> <span class="s2">"bar"</span><span class="p">,</span>
+            <span class="s2">"price"</span><span class="o">:</span> <span class="s2">"100-200"</span><span class="p">,</span>
+            <span class="s2">"address"</span><span class="o">:</span> <span class="s2">"address"</span><span class="p">,</span>
+            <span class="s2">"description_zh"</span><span class="o">:</span> <span class="s2">"description_zh"</span><span class="p">,</span>
+            <span class="s2">"description_en"</span><span class="o">:</span> <span class="s2">"description_en"</span><span class="p">,</span>
+            <span class="s2">"phone"</span><span class="o">:</span> <span class="s2">"phone"</span><span class="p">,</span>
+            <span class="s2">"hours"</span><span class="o">:</span> <span class="s2">"8-20"</span><span class="p">,</span>
+            <span class="s2">"_id"</span><span class="o">:</span> <span class="s2">"5364686f76868bcc1d6b0b78"</span><span class="p">,</span>
+            <span class="s2">"__v"</span><span class="o">:</span> <span class="mi">0</span><span class="p">,</span>
+            <span class="s2">"tags"</span><span class="o">:</span> <span class="p">[],</span>
+            <span class="s2">"pictures"</span><span class="o">:</span> <span class="p">[],</span>
+            <span class="s2">"metro"</span><span class="o">:</span> <span class="p">[],</span>
+            <span class="s2">"area"</span><span class="o">:</span> <span class="p">[]</span>
+        <span class="p">}</span>
+    <span class="p">],</span>
+  <span class="s2">"isVerified"</span><span class="o">:</span> <span class="kc">false</span><span class="p">,</span>
+  <span class="s2">"publishDate"</span><span class="o">:</span> <span class="s2">"2013-07-13T05:20:00.860Z"</span><span class="p">,</span>
+  <span class="s2">"metro"</span><span class="o">:</span> <span class="p">[</span>
+    <span class="s2">"51d7e8a550be5e0000000074"</span>
+  <span class="p">],</span>
+  <span class="s2">"area"</span><span class="o">:</span> <span class="p">[</span>
+    <span class="s2">"51d7e8a550be5e0000000016"</span>
+  <span class="p">],</span>
+  <span class="s2">"restaurant"</span><span class="o">:</span> <span class="p">[</span>
+    <span class="p">{</span>
+      <span class="s2">"_id"</span><span class="o">:</span> <span class="s2">"51e0e380f1e3e3e4d3000002"</span><span class="p">,</span>
+      <span class="s2">"description"</span><span class="o">:</span> <span class="s2">"restaurant1"</span><span class="p">,</span>
+      <span class="s2">"latitude"</span><span class="o">:</span> <span class="mi">98</span><span class="p">,</span>
+      <span class="s2">"longitude"</span><span class="o">:</span> <span class="mi">102</span><span class="p">,</span>
+      <span class="s2">"name"</span><span class="o">:</span> <span class="s2">"restaurant1"</span>
+    <span class="p">},</span>
+    <span class="p">{</span>
+      <span class="s2">"_id"</span><span class="o">:</span> <span class="s2">"51e0e380f1e3e3e4d3000003"</span><span class="p">,</span>
+      <span class="s2">"description"</span><span class="o">:</span> <span class="s2">"restaurant2"</span><span class="p">,</span>
+      <span class="s2">"latitude"</span><span class="o">:</span> <span class="mi">100</span><span class="p">,</span>
+      <span class="s2">"longitude"</span><span class="o">:</span> <span class="mi">102</span><span class="p">,</span>
+      <span class="s2">"name"</span><span class="o">:</span> <span class="s2">"restaurant2"</span>
+    <span class="p">},</span>
+    <span class="p">...</span>
+  <span class="p">]</span>
+<span class="p">}</span>
+</pre></div>
+
+<h3>
+<a name="user-content-10-grade-a-house" class="anchor" href="https://github.com/liuzhster/rent-api#10-grade-a-house" aria-hidden="true"><span class="octicon octicon-link"></span></a>10. grade a house</h3>
+
+<p>grade a house with score and comment</p>
+
+<p><strong>method:</strong> REST (POST)<br>
+<strong>url:</strong> /house/grade/:house-id.:format<br>
+<strong>variables:</strong></p>
+
+<ul class="task-list">
+<li>format: format of returned (required, only support json currently)</li>
+<li>house-id: id of the house (required)</li>
+<li>score (required, 1 to 5)</li>
+<li>publiser (required, the publisher of the house)</li>
+<li>content (optional)</li>
+<li>access_token: token after login (required)</li>
+</ul>
+
+<p><strong>response:</strong></p>
+
+<div class="highlight highlight-javascript"><pre><span class="p">{</span>
+    <span class="s2">"total_average_score"</span><span class="o">:</span> <span class="mi">5</span><span class="p">,</span>
+    <span class="s2">"myScore"</span><span class="o">:</span> <span class="mi">5</span><span class="p">,</span>
+    <span class="s2">"myScoreAt"</span><span class="o">:</span> <span class="mi">1398062837545</span><span class="p">,</span>
+    <span class="s2">"myScoreId"</span><span class="o">:</span> <span class="s2">"5354bef52341bea421118f98"</span>
+<span class="p">}</span>
+</pre></div>
+
+<h3>
+<a name="user-content-11-favorite-house" class="anchor" href="https://github.com/liuzhster/rent-api#11-favorite-house" aria-hidden="true"><span class="octicon octicon-link"></span></a>11. favorite house</h3>
+
+<p>add a house as favorite</p>
+
+<p><strong>method:</strong> REST (POST)<br>
+<strong>url:</strong> /house/favorite/:house-id.:format<br>
+<strong>variables:</strong></p>
+
+<ul class="task-list">
+<li>format: format of returned (required, only support json currently)</li>
+<li>house-id: id of the house (required)</li>
+<li>access_token: token after login (required)</li>
+</ul>
+
+<p><strong>response:</strong>
+status 200 or 400</p>
+
+<h3>
+<a name="user-content-12-publishers-information" class="anchor" href="https://github.com/liuzhster/rent-api#12-publishers-information" aria-hidden="true"><span class="octicon octicon-link"></span></a>12. publisher's information</h3>
+
+<p>information of the publisher</p>
+
+<p><strong>method:</strong> REST (GET)<br>
+<strong>url:</strong> /user/:lang/:publisher-id.:format<br>
+<strong>variables:</strong></p>
+
+<ul class="task-list">
+<li>format: format of returned (required, only support json currently)</li>
+<li>publisher-id: id of the publisher (required)</li>
+<li>lang: language of returned (required, en|zh)</li>
+</ul>
+
+<p><strong>response:</strong></p>
+
+<div class="highlight highlight-javascript"><pre><span class="p">{</span>
+  <span class="s2">"_id"</span><span class="o">:</span> <span class="mi">15900756869</span><span class="p">,</span>
+  <span class="s2">"company"</span><span class="o">:</span> <span class="s2">"Zhongyuan"</span><span class="p">,</span>
+  <span class="s2">"score"</span><span class="o">:</span> <span class="mf">3.5</span><span class="p">,</span>
+  <span class="s2">"name"</span><span class="o">:</span> <span class="s2">"test"</span>
+  <span class="s2">"photo"</span><span class="o">:</span><span class="s2">"http://tp2.sinaimg.cn/1739928273/180/5660563216/0"</span>
+<span class="p">}</span>
+</pre></div>
+
+<h3>
+<a name="user-content-13-update-house" class="anchor" href="https://github.com/liuzhster/rent-api#13-update-house" aria-hidden="true"><span class="octicon octicon-link"></span></a>13. update house</h3>
+
+<p>update the information of a house</p>
+
+<p><strong>method:</strong> REST (POST)<br>
+<strong>url:</strong> /house/:house-id.:format
+<strong>variables:</strong></p>
+
+<ul class="task-list">
+<li>format: format of returned (required, only support json currently)</li>
+<li>house-id: id of the house (required)</li>
+<li>name_zh: name in Chinese</li>
+<li>name_en: name in English</li>
+<li>houseType: type of the house(a reference id of houseType model)</li>
+<li>floor: floor of the house</li>
+<li>longitude</li>
+<li>latitude</li>
+<li>area: area of the house(a reference id of area model)</li>
+<li>metro: metro near the house(a reference id of metro model)</li>
+<li>description_zh: description in Chinese</li>
+<li>description_en: description in English</li>
+<li>access_token: token after login (required)</li>
+</ul>
+
+<p><strong>response:</strong>
+status 200 or 400</p>
+
+<h3>
+<a name="user-content-14-delete-house" class="anchor" href="https://github.com/liuzhster/rent-api#14-delete-house" aria-hidden="true"><span class="octicon octicon-link"></span></a>14. delete house</h3>
+
+<p>delete a house</p>
+
+<p><strong>method:</strong> REST (DELETE)<br>
+<strong>url:</strong> /house/:house-id.:format
+<strong>variables:</strong></p>
+
+<ul class="task-list">
+<li>format: format of returned (required, only support json currently)</li>
+<li>house-id: id of the house (required)</li>
+<li>access_token: token after login (required)</li>
+</ul>
+
+<p><strong>response:</strong>
+status 200 or 400</p>
+
+<h3>
+<a name="user-content-15-send-message" class="anchor" href="https://github.com/liuzhster/rent-api#15-send-message" aria-hidden="true"><span class="octicon octicon-link"></span></a>15. send message</h3>
+
+<p>send a internal message</p>
+
+<p><strong>method:</strong> REST (POST)<br>
+<strong>url:</strong> /message/new.:format
+<strong>variables:</strong></p>
+
+<ul class="task-list">
+<li>format: format of returned (required, only support json currently)</li>
+<li>to: the receiver's id (required)</li>
+<li>message: content of message (required)</li>
+<li>access_token: token after login (required)</li>
+</ul>
+
+<p><strong>response:</strong>
+status 200 or 40x</p>
+
+<h3>
+<a name="user-content-16-receive-messages" class="anchor" href="https://github.com/liuzhster/rent-api#16-receive-messages" aria-hidden="true"><span class="octicon octicon-link"></span></a>16. receive messages</h3>
+
+<p>receive new internal messages</p>
+
+<p><strong>method:</strong> REST (GET)<br>
+<strong>url:</strong> /messages.:format
+<strong>variables:</strong></p>
+
+<ul class="task-list">
+<li>format: format of returned (required, only support json currently)</li>
+<li>access_token: token after login (required)</li>
+<li>readStatus:read status of the message(optional|default is all)</li>
+</ul>
+
+<p><strong>response:</strong></p>
+
+<div class="highlight highlight-javascript"><pre><span class="p">[</span>
+  <span class="p">{</span>
+    <span class="s2">"to"</span><span class="o">:</span> <span class="s2">"15900756869"</span><span class="p">,</span>
+    <span class="s2">"from"</span><span class="o">:</span> <span class="s2">"15900756869"</span><span class="p">,</span>
+    <span class="s2">"message"</span><span class="o">:</span> <span class="s2">"hello"</span><span class="p">,</span>
+    <span class="s2">"_id"</span><span class="o">:</span> <span class="s2">"52d21ea55e6fd67820000001"</span><span class="p">,</span>
+    <span class="s2">"__v"</span><span class="o">:</span> <span class="mi">0</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="s2">"to"</span><span class="o">:</span> <span class="s2">"15900756869"</span><span class="p">,</span>
+    <span class="s2">"from"</span><span class="o">:</span> <span class="s2">"15900756869"</span><span class="p">,</span>
+    <span class="s2">"message"</span><span class="o">:</span> <span class="s2">"hello2"</span><span class="p">,</span>
+    <span class="s2">"_id"</span><span class="o">:</span> <span class="s2">"52d21eb45e6fd67820000002"</span><span class="p">,</span>
+    <span class="s2">"__v"</span><span class="o">:</span> <span class="mi">0</span>
+  <span class="p">}</span>
+<span class="p">]</span>
+</pre></div>
+
+<h3>
+<a name="user-content-17-delete-favorite-house" class="anchor" href="https://github.com/liuzhster/rent-api#17-delete-favorite-house" aria-hidden="true"><span class="octicon octicon-link"></span></a>17. delete favorite house</h3>
+
+<p>delete favorite of a house</p>
+
+<p><strong>method:</strong> REST (DELETE)<br>
+<strong>url:</strong> /house/favorite/:house.:format
+<strong>variables:</strong></p>
+
+<ul class="task-list">
+<li>format: format of returned (required, only support json currently)</li>
+<li>house: id of the house (required)</li>
+<li>access_token: token after login (required)</li>
+</ul>
+
+<p><strong>response:</strong>
+status 200 or 400</p>
+
+<h3>
+<a name="user-content-18-list-favorite-house" class="anchor" href="https://github.com/liuzhster/rent-api#18-list-favorite-house" aria-hidden="true"><span class="octicon octicon-link"></span></a>18. list favorite house</h3>
+
+<p>list favorite of a house</p>
+
+<p><strong>method:</strong> REST (GET)<br>
+<strong>url:</strong> /house/favorites.:format<br>
+<strong>variables:</strong></p>
+
+<ul class="task-list">
+<li>format: format of returned (required, only support json currently)</li>
+<li>access_token: token after login (required)</li>
+<li>page: page of favorites</li>
+</ul>
+
+<p><strong>response:</strong>
+status 200 or 400</p>
+
+<h3>
+<a name="user-content-19-sign-in" class="anchor" href="https://github.com/liuzhster/rent-api#19-sign-in" aria-hidden="true"><span class="octicon octicon-link"></span></a>19. sign in</h3>
+
+<p>sign in by phone and password and get a token</p>
+
+<p><strong>method:</strong> REST (POST)<br>
+<strong>url:</strong> /users/login.:format 
+<strong>variables:</strong></p>
+
+<ul class="task-list">
+<li>format: format of returned (required, only support json currently)</li>
+<li>phone: phone number (required)</li>
+<li>pass: password (required)</li>
+</ul>
+
+<p><strong>response:</strong>
+status 200 or 400</p>
+
+<div class="highlight highlight-javascript"><pre><span class="p">{</span>
+    <span class="s2">"access_token"</span><span class="o">:</span> <span class="s2">"3q1zJvaZ4RmClOx234nR7g=="</span>
+<span class="p">}</span>
+</pre></div>
+
+<h3>
+<a name="user-content-20-delete-favorite-agent" class="anchor" href="https://github.com/liuzhster/rent-api#20-delete-favorite-agent" aria-hidden="true"><span class="octicon octicon-link"></span></a>20. delete favorite agent</h3>
+
+<p>delete favorite of a agent</p>
+
+<p><strong>method:</strong> REST (DELETE)<br>
+<strong>url:</strong> /agent/favorite/:agent.:format
+<strong>variables:</strong></p>
+
+<ul class="task-list">
+<li>format: format of returned (required, only support json currently)</li>
+<li>agent: id of the house (required)</li>
+<li>access_token: token after login (required)</li>
+</ul>
+
+<p><strong>response:</strong>
+status 200 or 400</p>
+
+<h3>
+<a name="user-content-21-list-favorite-agents" class="anchor" href="https://github.com/liuzhster/rent-api#21-list-favorite-agents" aria-hidden="true"><span class="octicon octicon-link"></span></a>21. list favorite agents</h3>
+
+<p>list favorite agents</p>
+
+<p><strong>method:</strong> REST (GET)<br>
+<strong>url:</strong> /agent/favorites.:format<br>
+<strong>variables:</strong></p>
+
+<ul class="task-list">
+<li>format: format of returned (required, only support json currently)</li>
+<li>access_token: token after login (required)</li>
+<li>page: page of favorites</li>
+</ul>
+
+<p><strong>response:</strong>
+status 200 or 400</p>
+
+<h3>
+<a name="user-content-22-favorite-agent" class="anchor" href="https://github.com/liuzhster/rent-api#22-favorite-agent" aria-hidden="true"><span class="octicon octicon-link"></span></a>22. favorite agent</h3>
+
+<p>add a agent as favorite</p>
+
+<p><strong>method:</strong> REST (POST)<br>
+<strong>url:</strong> /agent/favorite/:agent.:format<br>
+<strong>variables:</strong></p>
+
+<ul class="task-list">
+<li>format: format of returned (required, only support json currently)</li>
+<li>agent: id of the agent (required)</li>
+<li>access_token: token after login (required)</li>
+</ul>
+
+<p><strong>response:</strong>
+status 200 or 400</p>
+
+<h3>
+<a name="user-content-23-delete-house-view-history" class="anchor" href="https://github.com/liuzhster/rent-api#23-delete-house-view-history" aria-hidden="true"><span class="octicon octicon-link"></span></a>23. delete house view history</h3>
+
+<p>delete history of a house</p>
+
+<p><strong>method:</strong> REST (DELETE)<br>
+<strong>url:</strong> /house/viewHistories/:house.:format
+<strong>variables:</strong></p>
+
+<ul class="task-list">
+<li>format: format of returned (required, only support json currently)</li>
+<li>house: id of the house (required)</li>
+<li>access_token: token after login (required)</li>
+</ul>
+
+<p><strong>response:</strong>
+status 200 or 400</p>
+
+<h3>
+<a name="user-content-24-list-house-view-history" class="anchor" href="https://github.com/liuzhster/rent-api#24-list-house-view-history" aria-hidden="true"><span class="octicon octicon-link"></span></a>24. list house view history</h3>
+
+<p>list history of a house</p>
+
+<p><strong>method:</strong> REST (GET)<br>
+<strong>url:</strong> /house/viewHistories.:format
+<strong>variables:</strong></p>
+
+<ul class="task-list">
+<li>format: format of returned (required, only support json currently)</li>
+<li>access_token: token after login (required)</li>
+<li>page: page of favorites</li>
+</ul>
+
+<h3>
+<a name="user-content-25-add-house-view-history" class="anchor" href="https://github.com/liuzhster/rent-api#25-add-house-view-history" aria-hidden="true"><span class="octicon octicon-link"></span></a>25. add house view history</h3>
+
+<p>add a house to a view history</p>
+
+<p><strong>method:</strong> REST (POST)<br>
+<strong>url:</strong> /house/viewHistories/:house.:format
+<strong>variables:</strong></p>
+
+<ul class="task-list">
+<li>format: format of returned (required, only support json currently)</li>
+<li>house: id of the house (required)</li>
+<li>access_token: token after login (required)</li>
+</ul>
+
+<p><strong>response:</strong>
+status 200 or 400</p>
+
+<h3>
+<a name="user-content-26-list-score-and-comment-history" class="anchor" href="https://github.com/liuzhster/rent-api#26-list-score-and-comment-history" aria-hidden="true"><span class="octicon octicon-link"></span></a>26. list score and comment history</h3>
+
+<p>list history score and comment of an agent</p>
+
+<p><strong>method:</strong> REST (GET)<br>
+<strong>url:</strong> /agent/gradeList/:agent.:format
+<strong>variables:</strong></p>
+
+<ul class="task-list">
+<li>format: format of returned (required, only support json currently)</li>
+<li>agent: id of the agent (required)</li>
+</ul>
+
+<p><strong>response:</strong>
+status 200 or 400</p>
+
+<div class="highlight highlight-javascript"><pre><span class="p">[</span>
+    <span class="p">{</span>
+        <span class="s2">"user"</span><span class="o">:</span> <span class="p">{</span>
+            <span class="s2">"_id"</span><span class="o">:</span> <span class="mi">13000000001</span><span class="p">,</span>
+            <span class="s2">"name"</span><span class="o">:</span> <span class="s2">"test1"</span>
+        <span class="p">},</span>
+        <span class="s2">"house"</span><span class="o">:</span> <span class="s2">"52da9d9829678d6c1c000002"</span><span class="p">,</span>
+        <span class="s2">"score"</span><span class="o">:</span> <span class="mi">3</span><span class="p">,</span>
+        <span class="s2">"publisher"</span><span class="o">:</span> <span class="mi">13000000001</span><span class="p">,</span>
+        <span class="s2">"scoreAt"</span><span class="o">:</span> <span class="mi">1397875890351</span><span class="p">,</span>
+        <span class="s2">"_id"</span><span class="o">:</span> <span class="s2">"5351e4b238115df41be82933"</span><span class="p">,</span>
+        <span class="s2">"__v"</span><span class="o">:</span> <span class="mi">0</span>
+    <span class="p">},</span>
+    <span class="p">{</span>
+        <span class="s2">"user"</span><span class="o">:</span> <span class="p">{</span>
+            <span class="s2">"_id"</span><span class="o">:</span> <span class="mi">13000000001</span><span class="p">,</span>
+            <span class="s2">"name"</span><span class="o">:</span> <span class="s2">"test1"</span>
+        <span class="p">},</span>
+        <span class="s2">"house"</span><span class="o">:</span> <span class="s2">"52da9d9829678d6c1c000002"</span><span class="p">,</span>
+        <span class="s2">"score"</span><span class="o">:</span> <span class="mi">5</span><span class="p">,</span>
+        <span class="s2">"publisher"</span><span class="o">:</span> <span class="mi">13000000001</span><span class="p">,</span>
+        <span class="s2">"scoreAt"</span><span class="o">:</span> <span class="mi">1397875887720</span><span class="p">,</span>
+        <span class="s2">"_id"</span><span class="o">:</span> <span class="s2">"5351e4af38115df41be82932"</span><span class="p">,</span>
+        <span class="s2">"__v"</span><span class="o">:</span> <span class="mi">0</span>
+    <span class="p">}</span>
+<span class="p">]</span>
+</pre></div>
+
+<h3>
+<a name="user-content-27-user-info" class="anchor" href="https://github.com/liuzhster/rent-api#27-user-info" aria-hidden="true"><span class="octicon octicon-link"></span></a>27. user info</h3>
+
+<p><strong>method:</strong> REST (GET)<br>
+<strong>url:</strong> /users/info.:format
+<strong>variables:</strong></p>
+
+<ul class="task-list">
+<li>format: format of returned (required, only support json currently)</li>
+<li>access_token:(required)</li>
+</ul>
+
+<p><strong>response:</strong>
+status 200 or 400</p>
+
+<div class="highlight highlight-javascript"><pre><span class="p">{</span>
+    <span class="s2">"phone"</span><span class="o">:</span> <span class="mi">13000000001</span><span class="p">,</span>
+    <span class="s2">"name"</span><span class="o">:</span> <span class="s2">"test1"</span><span class="p">,</span>
+    <span class="s2">"registerDate"</span><span class="o">:</span> <span class="s2">"2014-03-29T10:31:12.226Z"</span>
+<span class="p">}</span>
+</pre></div>
+
+<h3>
+<a name="user-content-28-update-user" class="anchor" href="https://github.com/liuzhster/rent-api#28-update-user" aria-hidden="true"><span class="octicon octicon-link"></span></a>28. update user</h3>
+
+<p>update current user's information</p>
+
+<p><strong>method:</strong> REST (POST)<br>
+<strong>url:</strong> /users/info.:format
+<strong>variables:</strong></p>
+
+<ul class="task-list">
+<li>format: format of returned (required, only support json currently)</li>
+<li>access_token:(required)</li>
+</ul>
+
+<p><strong>response:</strong>
+status 200 or 400</p>
+
+<h3>
+<a name="user-content-29-list-score-and-comment-history" class="anchor" href="https://github.com/liuzhster/rent-api#29-list-score-and-comment-history" aria-hidden="true"><span class="octicon octicon-link"></span></a>29. list score and comment history</h3>
+
+<p>list history score and comment of current user</p>
+
+<p><strong>method:</strong> REST (GET)<br>
+<strong>url:</strong> /user/gradeList.:format
+<strong>variables:</strong></p>
+
+<ul class="task-list">
+<li>format: format of returned (required, only support json currently)</li>
+<li>access_token(required)</li>
+<li>type: if eql 'received' return the comment send to me, otherwise return the comment send by me</li>
+</ul>
+
+<p><strong>response:</strong>
+status 200 or 400</p>
+
+<h3>
+<a name="user-content-30-mark-messages-as-read" class="anchor" href="https://github.com/liuzhster/rent-api#30-mark-messages-as-read" aria-hidden="true"><span class="octicon octicon-link"></span></a>30. mark messages as read</h3>
+
+<p><strong>method:</strong> REST (POST) 
+<strong>url:</strong> /messages/markAsRead.:format
+<strong>variables:</strong></p>
+
+<ul class="task-list">
+<li>format: format of returned (required, only support json currently)</li>
+<li>messages: ids of the agent (required,split by ',')</li>
+<li>access_token: token after login (required)</li>
+</ul>
+
+<p><strong>response:</strong>
+status 200 or 400</p>
+
+<h3>
+<a name="user-content-31-remove-messages" class="anchor" href="https://github.com/liuzhster/rent-api#31-remove-messages" aria-hidden="true"><span class="octicon octicon-link"></span></a>31. remove messages</h3>
+
+<p>delete message from received box</p>
+
+<p><strong>method:</strong> REST (POST) 
+<strong>url:</strong> /messages/delete/received.:format
+<strong>variables:</strong></p>
+
+<ul class="task-list">
+<li>format: format of returned (required, only support json currently)</li>
+<li>messages: ids of the agent (required,split by ',')</li>
+<li>access_token: token after login (required)</li>
+</ul>
+
+<p><strong>response:</strong>
+status 200 or 400</p>
+
+<h3>
+<a name="user-content-32-remove-grade" class="anchor" href="https://github.com/liuzhster/rent-api#32-remove-grade" aria-hidden="true"><span class="octicon octicon-link"></span></a>32. remove grade</h3>
+
+<p><strong>method:</strong> REST (POST)  receiveMessages
+<strong>url:</strong> /house/deleteGrade/:grade.:format
+<strong>variables:</strong></p>
+
+<ul class="task-list">
+<li>format: format of returned (required, only support json currently)</li>
+<li>grade: id of the grade (required)</li>
+<li>access_token: token after login (required)</li>
+</ul>
+
+<p><strong>response:</strong>
+status 200 or 400</p>
+
+<h3>
+<a name="user-content-33-sent-messages" class="anchor" href="https://github.com/liuzhster/rent-api#33-sent-messages" aria-hidden="true"><span class="octicon octicon-link"></span></a>33. sent messages</h3>
+
+<p>query messages send by me</p>
+
+<p><strong>method:</strong> REST (GET)<br>
+<strong>url:</strong> /messages/sent.:format
+<strong>variables:</strong></p>
+
+<ul class="task-list">
+<li>format: format of returned (required, only support json currently)</li>
+<li>access_token: token after login (required)</li>
+<li>page: page number</li>
+</ul>
+
+<p><strong>response:</strong></p>
+
+<div class="highlight highlight-javascript"><pre><span class="p">[</span>
+    <span class="p">{</span>
+        <span class="s2">"from"</span><span class="o">:</span> <span class="mi">13000000001</span><span class="p">,</span>
+        <span class="s2">"message"</span><span class="o">:</span> <span class="s2">"haha"</span><span class="p">,</span>
+        <span class="s2">"createdAt"</span><span class="o">:</span> <span class="mi">1398074877925</span><span class="p">,</span>
+        <span class="s2">"readStatus"</span><span class="o">:</span> <span class="kc">false</span><span class="p">,</span>
+        <span class="s2">"_id"</span><span class="o">:</span> <span class="s2">"5354edfdd7698b48232de136"</span><span class="p">,</span>
+        <span class="s2">"__v"</span><span class="o">:</span> <span class="mi">0</span><span class="p">,</span>
+        <span class="s2">"to"</span><span class="o">:</span> <span class="mi">13000000001</span><span class="p">,</span>
+        <span class="s2">"to_name"</span><span class="o">:</span> <span class="s2">"test1"</span>
+    <span class="p">}</span>
+<span class="p">]</span>
+</pre></div>
+
+<h3>
+<a name="user-content-34-my-grade-list" class="anchor" href="https://github.com/liuzhster/rent-api#34-my-grade-list" aria-hidden="true"><span class="octicon octicon-link"></span></a>34. my grade list</h3>
+
+<p>query grade send by me</p>
+
+<p><strong>method:</strong> REST (GET)<br>
+<strong>url:</strong> /gradeList/sent.:format
+<strong>variables:</strong></p>
+
+<ul class="task-list">
+<li>format: format of returned (required, only support json currently)</li>
+<li>access_token: token after login (required)</li>
+<li>page: page number</li>
+</ul>
+
+<p><strong>response:</strong></p>
+
+<div class="highlight highlight-javascript"><pre><span class="p">[</span>
+    <span class="p">{</span>
+        <span class="s2">"user"</span><span class="o">:</span> <span class="p">{</span>
+            <span class="s2">"_id"</span><span class="o">:</span> <span class="mi">13000000001</span><span class="p">,</span>
+            <span class="s2">"name"</span><span class="o">:</span> <span class="s2">"test1"</span>
+        <span class="p">},</span>
+        <span class="s2">"house"</span><span class="o">:</span> <span class="s2">"52da9d9829678d6c1c000002"</span><span class="p">,</span>
+        <span class="s2">"score"</span><span class="o">:</span> <span class="mf">4.5</span><span class="p">,</span>
+        <span class="s2">"publisher"</span><span class="o">:</span> <span class="mi">13000000001</span><span class="p">,</span>
+        <span class="s2">"scoreAt"</span><span class="o">:</span> <span class="mi">1398062977495</span><span class="p">,</span>
+        <span class="s2">"_id"</span><span class="o">:</span> <span class="s2">"5354bf81d7698b48232de135"</span><span class="p">,</span>
+        <span class="s2">"__v"</span><span class="o">:</span> <span class="mi">0</span>
+    <span class="p">}</span>
+<span class="p">]</span>
+</pre></div>
+
+<h3>
+<a name="user-content-35-remove-messages" class="anchor" href="https://github.com/liuzhster/rent-api#35-remove-messages" aria-hidden="true"><span class="octicon octicon-link"></span></a>35. remove messages</h3>
+
+<p>delete message from sent box</p>
+
+<p><strong>method:</strong> REST (POST) 
+<strong>url:</strong> /messages/delete/sent.:format
+<strong>variables:</strong></p>
+
+<ul class="task-list">
+<li>format: format of returned (required, only support json currently)</li>
+<li>messages: ids of the agent (required,split by ',')</li>
+<li>access_token: token after login (required)</li>
+</ul>
+
+<p><strong>response:</strong>
+status 200 or 400</p>
+
+<h3>
+<a name="user-content-36-delete-dining-view-history" class="anchor" href="https://github.com/liuzhster/rent-api#36-delete-dining-view-history" aria-hidden="true"><span class="octicon octicon-link"></span></a>36. delete dining view history</h3>
+
+<p>delete history of a dining</p>
+
+<p><strong>method:</strong> REST (DELETE)<br>
+<strong>url:</strong> /dinings/viewHistories/:dining.:format
+<strong>variables:</strong></p>
+
+<ul class="task-list">
+<li>format: format of returned (required, only support json currently)</li>
+<li>dining: id of the dining (required)</li>
+<li>access_token: token after login (required)</li>
+</ul>
+
+<p><strong>response:</strong>
+status 200 or 400</p>
+
+<h3>
+<a name="user-content-37-list-dining-view-history" class="anchor" href="https://github.com/liuzhster/rent-api#37-list-dining-view-history" aria-hidden="true"><span class="octicon octicon-link"></span></a>37. list dining view history</h3>
+
+<p>list history of a dining</p>
+
+<p><strong>method:</strong> REST (GET)<br>
+<strong>url:</strong> /dinings/viewHistories/index.:format
+<strong>variables:</strong></p>
+
+<ul class="task-list">
+<li>format: format of returned (required, only support json currently)</li>
+<li>access_token: token after login (required)</li>
+<li>page: page of history</li>
+</ul>
+
+<h3>
+<a name="user-content-38-add-dining-view-history" class="anchor" href="https://github.com/liuzhster/rent-api#38-add-dining-view-history" aria-hidden="true"><span class="octicon octicon-link"></span></a>38. add dining view history</h3>
+
+<p>add a dining to a view history</p>
+
+<p><strong>method:</strong> REST (POST)<br>
+<strong>url:</strong> /dinings/viewHistories/:dining.:format
+<strong>variables:</strong></p>
+
+<ul class="task-list">
+<li>format: format of returned (required, only support json currently)</li>
+<li>dining: id of the house (required)</li>
+<li>access_token: token after login (required)</li>
+</ul>
+
+<p><strong>response:</strong>
+status 200 or 400</p>
+
+<h3>
+<a name="user-content-39-favorite-dining" class="anchor" href="https://github.com/liuzhster/rent-api#39-favorite-dining" aria-hidden="true"><span class="octicon octicon-link"></span></a>39. favorite dining</h3>
+
+<p>add a dining as favorite</p>
+
+<p><strong>method:</strong> REST (POST)<br>
+<strong>url:</strong> /dinings/favorite/:dining.:format<br>
+<strong>variables:</strong></p>
+
+<ul class="task-list">
+<li>format: format of returned (required, only support json currently)</li>
+<li>dining: id of the dining (required)</li>
+<li>access_token: token after login (required)</li>
+</ul>
+
+<p><strong>response:</strong>
+status 200 or 400</p>
+
+<h3>
+<a name="user-content-40-delete-favorite-dining" class="anchor" href="https://github.com/liuzhster/rent-api#40-delete-favorite-dining" aria-hidden="true"><span class="octicon octicon-link"></span></a>40. delete favorite dining</h3>
+
+<p>delete favorite of a dining</p>
+
+<p><strong>method:</strong> REST (DELETE)<br>
+<strong>url:</strong> /house/favorite/:house.:format
+<strong>variables:</strong></p>
+
+<ul class="task-list">
+<li>format: format of returned (required, only support json currently)</li>
+<li>dining: id of the dining (required)</li>
+<li>access_token: token after login (required)</li>
+</ul>
+
+<p><strong>response:</strong>
+status 200 or 400</p>
+
+<h3>
+<a name="user-content-41-list-favorite-dinings" class="anchor" href="https://github.com/liuzhster/rent-api#41-list-favorite-dinings" aria-hidden="true"><span class="octicon octicon-link"></span></a>41. list favorite dinings</h3>
+
+<p>list favorite of dinings</p>
+
+<p><strong>method:</strong> REST (GET)<br>
+<strong>url:</strong> /dinings/favorites/index.:format<br>
+<strong>variables:</strong></p>
+
+<ul class="task-list">
+<li>format: format of returned (required, only support json currently)</li>
+<li>access_token: token after login (required)</li>
+<li>page: page of favorites</li>
+</ul>
+
+<h3>
+<a name="user-content-42-dining-detail" class="anchor" href="https://github.com/liuzhster/rent-api#42-dining-detail" aria-hidden="true"><span class="octicon octicon-link"></span></a>42. dining detail</h3>
+
+<p>return the detail information of the dining</p>
+
+<p><strong>method:</strong> REST (GET)<br>
+<strong>url:</strong> /dinings/dining.:format<br>
+<strong>variables:</strong></p>
+
+<ul class="task-list">
+<li>format: format of returned (required, only support json currently)</li>
+<li>dining: id of the dining (required)</li>
+</ul>
+
+<p><strong>response:</strong></p>
+
+<div class="highlight highlight-javascript"><pre><span class="p">{</span>
+    <span class="s2">"location"</span><span class="o">:</span> <span class="p">[</span>
+        <span class="mf">121.436428</span><span class="p">,</span>
+        <span class="mf">31.166243</span>
+    <span class="p">],</span>
+    <span class="s2">"name_zh"</span><span class="o">:</span> <span class="s2">"name_zh"</span><span class="p">,</span>
+    <span class="s2">"name_en"</span><span class="o">:</span> <span class="s2">"name_en"</span><span class="p">,</span>
+    <span class="s2">"type"</span><span class="o">:</span> <span class="s2">"bar"</span><span class="p">,</span>
+    <span class="s2">"price"</span><span class="o">:</span> <span class="s2">"100-200"</span><span class="p">,</span>
+    <span class="s2">"address"</span><span class="o">:</span> <span class="s2">"address"</span><span class="p">,</span>
+    <span class="s2">"description_zh"</span><span class="o">:</span> <span class="s2">"description_zh"</span><span class="p">,</span>
+    <span class="s2">"description_en"</span><span class="o">:</span> <span class="s2">"description_en"</span><span class="p">,</span>
+    <span class="s2">"phone"</span><span class="o">:</span> <span class="s2">"phone"</span><span class="p">,</span>
+    <span class="s2">"hours"</span><span class="o">:</span> <span class="s2">"8-20"</span><span class="p">,</span>
+    <span class="s2">"_id"</span><span class="o">:</span> <span class="s2">"5364686f76868bcc1d6b0b78"</span><span class="p">,</span>
+    <span class="s2">"__v"</span><span class="o">:</span> <span class="mi">0</span><span class="p">,</span>
+    <span class="s2">"tags"</span><span class="o">:</span> <span class="p">[],</span>
+    <span class="s2">"pictures"</span><span class="o">:</span> <span class="p">[],</span>
+    <span class="s2">"metro"</span><span class="o">:</span> <span class="p">[],</span>
+    <span class="s2">"area"</span><span class="o">:</span> <span class="p">[]</span>
+<span class="p">}</span>
+</pre></div>
+
+<h3>
+<a name="user-content-43-publish-dining" class="anchor" href="https://github.com/liuzhster/rent-api#43-publish-dining" aria-hidden="true"><span class="octicon octicon-link"></span></a>43. publish dining</h3>
+
+<p>publish the dining information</p>
+
+<p><strong>method:</strong> REST (POST)<br>
+<strong>url:</strong> /dinings/publish.:format<br>
+<strong>variables:</strong></p>
+
+<ul class="task-list">
+<li>format: format of returned (required, only support json currently)</li>
+<li>name_zh: name in Chinese</li>
+<li>name_en: name in English (required)</li>
+<li>type: type of the dining(bar/restaurant)</li>
+<li>longitude</li>
+<li>latitude</li>
+<li>price(string like '100-200')</li>
+<li>address</li>
+<li>area: area of the house(a reference id of area model)</li>
+<li>metro: metro near the house(a reference id of metro model)</li>
+<li>description_zh: description in Chinese</li>
+<li>description_en: description in English</li>
+<li>access_token: token after login</li>
+<li>files: image of the house(send in request.files)</li>
+<li>level: display order, the largest is the first</li>
+</ul>
+
+<p><strong>response:</strong>
+status 200 or 400</p>
+
+<h3>
+<a name="user-content-44-update-user-password" class="anchor" href="https://github.com/liuzhster/rent-api#44-update-user-password" aria-hidden="true"><span class="octicon octicon-link"></span></a>44. update user password</h3>
+
+<p>update current user's information</p>
+
+<p><strong>method:</strong> REST (POST)<br>
+<strong>url:</strong> /users/pass.:format
+<strong>variables:</strong></p>
+
+<ul class="task-list">
+<li>format: format of returned (required, only support json currently)</li>
+<li>access_token:(required)</li>
+<li>newPass:(required)</li>
+<li>oldPass:(required)</li>
+</ul>
+
+<p><strong>response:</strong>
+status 200 or 400</p>
+
+<h3>
+<a name="user-content-45-query-house-count" class="anchor" href="https://github.com/liuzhster/rent-api#45-query-house-count" aria-hidden="true"><span class="octicon octicon-link"></span></a>45. query house count</h3>
+
+<p><strong>method:</strong> REST (GET)<br>
+<strong>url:</strong> /houses/count.:format
+<strong>variables:</strong></p>
+
+<ul class="task-list">
+<li>format: format of returned (required, only support json currently)</li>
+<li>access_token:(required)</li>
+</ul>
+
+<p>see ### 7. search house</p>
+
+<p><strong>response:</strong>
+status 200 or 400</p>
+
+<div class="highlight highlight-javascript"><pre><span class="p">{</span>
+    <span class="s2">"data"</span><span class="o">:</span> <span class="mi">137</span>
+<span class="p">}</span>
+</pre></div>
+</article>
+  </div>
+
+
+        </div>
+
+      </div><!-- /.repo-container -->
+      <div class="modal-backdrop"></div>
+    </div><!-- /.container -->
+  </div><!-- /.site -->
+
+
+    </div><!-- /.wrapper -->
+
+      <div class="container">
+  <div class="site-footer" role="contentinfo">
+    <ul class="site-footer-links right">
+      <li><a href="https://status.github.com/">Status</a></li>
+      <li><a href="http://developer.github.com/">API</a></li>
+      <li><a href="http://training.github.com/">Training</a></li>
+      <li><a href="http://shop.github.com/">Shop</a></li>
+      <li><a href="https://github.com/blog">Blog</a></li>
+      <li><a href="https://github.com/about">About</a></li>
+
+    </ul>
+
+    <a href="https://github.com/" aria-label="Homepage">
+      <span class="mega-octicon octicon-mark-github" title="GitHub"></span>
+    </a>
+
+    <ul class="site-footer-links">
+      <li>© 2014 <span title="0.60217s from github-fe118-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+        <li><a href="https://github.com/site/terms">Terms</a></li>
+        <li><a href="https://github.com/site/privacy">Privacy</a></li>
+        <li><a href="https://github.com/security">Security</a></li>
+        <li><a href="https://github.com/contact">Contact</a></li>
+    </ul>
+  </div><!-- /.site-footer -->
+</div><!-- /.container -->
+
+
+    <div class="fullscreen-overlay js-fullscreen-overlay" id="fullscreen_overlay">
+  <div class="fullscreen-container js-suggester-container">
+    <div class="textarea-wrap">
+      <textarea name="fullscreen-contents" id="fullscreen-contents" class="fullscreen-contents js-fullscreen-contents js-suggester-field" placeholder=""></textarea>
+    </div>
+  </div>
+  <div class="fullscreen-sidebar">
+    <a href="https://github.com/liuzhster/rent-api#" class="exit-fullscreen js-exit-fullscreen tooltipped tooltipped-w" aria-label="Exit Zen Mode">
+      <span class="mega-octicon octicon-screen-normal"></span>
+    </a>
+    <a href="https://github.com/liuzhster/rent-api#" class="theme-switcher js-theme-switcher tooltipped tooltipped-w" aria-label="Switch themes">
+      <span class="octicon octicon-color-mode"></span>
+    </a>
+  </div>
+</div>
+
+
+
+    <div id="ajax-error-message" class="flash flash-error">
+      <span class="octicon octicon-alert"></span>
+      <a href="https://github.com/liuzhster/rent-api#" class="octicon octicon-x flash-close js-ajax-error-dismiss" aria-label="Dismiss error"></a>
+      Something went wrong with that request. Please try again.
+    </div>
+
+
+      <script crossorigin="anonymous" src="./liuzhster rent-api_files/frameworks-3d6415a807b351117a075649a484659a51123e9916f8d6db57c6d516d8ae60d7.js" type="text/javascript"></script>
+      <script async="async" crossorigin="anonymous" src="./liuzhster rent-api_files/github-3bc9b3e4883d2f34db938c1cb44d0237ec3a9e64b20a0e0d415a6e821a75b6a0.js" type="text/javascript"></script>
+      
+      
+  
+
+
+<div id="global-zeroclipboard-html-bridge" class="global-zeroclipboard-container" style="position: absolute; left: 0px; top: -9999px; width: 1px; height: 1px; z-index: 999999999;"><object id="global-zeroclipboard-flash-bridge" name="global-zeroclipboard-flash-bridge" width="100%" height="100%" type="application/x-shockwave-flash" data="https://assets-cdn.github.com/flash/ZeroClipboard.v2.1.6.swf"><param name="allowScriptAccess" value="always"><param name="allowNetworking" value="all"><param name="menu" value="false"><param name="wmode" value="transparent"><param name="flashvars" value="trustedOrigins=github.com%2C%2F%2Fgithub.com%2Chttps%3A%2F%2Fgithub.com&amp;swfObjectId=global-zeroclipboard-flash-bridge"></object></div><div id="_cfgwp"><span isenoughactivedaynum="false" version="5.2.3"></span></div></body></html>
